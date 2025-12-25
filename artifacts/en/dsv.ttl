@@ -1,0 +1,1651 @@
+@prefix : <https://ofn.gov.cz/dcat-ap-cz-360-2023#>.
+
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#> a <http://www.w3.org/ns/dx/prof/Profile>, <https://w3id.org/dsv#ApplicationProfile>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <https://slovník.gov.cz/veřejný-sektor/pojem/datová-sada>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+:Katalog <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Katalog>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SérieDatovýchSad> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#specializes> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+:Distribuce <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraní>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#ČasovýInterval> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#FormátSouboru> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#FormátSouboru>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#FormátSouboru>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#FormátSouboru>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#FormátSouboru>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#TypMédia> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#TypMédia>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#TypMédia>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#TypMédia>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#TypMédia>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+:Frekvence <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Frekvence>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Frekvence>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Frekvence>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Frekvence>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+:Koncept <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Koncept>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Koncept>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Koncept>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Koncept>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#TémaEuroVoc> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatovéTéma> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatovéTéma>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatovéTéma>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatovéTéma>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatovéTéma>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#PrávníPředpis> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+:Poskytovatel <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Poskytovatel>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Poskytovatel>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Poskytovatel>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Poskytovatel>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+:Zdroj <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Resource"@en, "Zdroj"@cs;
+    <http://www.w3.org/2004/02/skos/core#definition> "Anything described by RDF."@en, "Cokoliv, co má URL ve schématu HTTPS."@cs;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Zdroj>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Zdroj>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+:Standard <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Standard>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Standard>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Standard>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Standard>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+:Licence <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Licence>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Licence>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Licence>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Licence>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+:Pojem <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojem>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojem>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojem>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údaje>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údaje>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údaje>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#ZpůsobSdíleníÚdaje> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údaje>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údaje>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údaje>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#ZpůsobZískáníÚdaje> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údaje>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údaje>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údaje>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#TypObsahuÚdaje> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údaje>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údaje>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údaje>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#InformačníSystémVeřejnéSprávy> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+:Email <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Resource"@en, "Emailová adresa"@cs;
+    <http://www.w3.org/2004/02/skos/core#definition> "Anything described by RDF."@en, "Cokoliv, co má URL ve schématu mailto:"@cs;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Zdroj>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Zdroj>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+:Dokument <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Dokument>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Dokument>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Dokument>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Dokument>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+:Organizace <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Organization"@en, "Organizace"@cs;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <http://www.w3.org/2006/vcard/ns#Organization>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <http://www.w3.org/2006/vcard/ns#Organization>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#supportive>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DistribuceDatováSlužba> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#specializes> :Distribuce;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraní>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+:DistribuceSoubor <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#specializes> :Distribuce;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor>
+];
+    a <https://w3id.org/dsv#ClassProfile>;
+    <https://w3id.org/dsv#class> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraní>;
+    <https://w3id.org/dsv#classRole> <https://w3id.org/dsv/class-role#main>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití.originálníDatabáze> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Licence.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití.autorskéDílo> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Licence.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Licence.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití.osobníÚdaje> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Licence.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce-SouborKeStažení.odkazNaStaženíSouboru> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> :DistribuceSoubor;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Zdroj.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce-SouborKeStažení.formátSouboruKeStažení> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> :DistribuceSoubor;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#FormátSouboru>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce-SouborKeStažení.typMédia> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> :DistribuceSoubor;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#TypMédia>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce-SouborKeStažení.formátBalíčku> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> :DistribuceSoubor;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#TypMédia>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce-SouborKeStažení.formátKomprese> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> :DistribuceSoubor;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#TypMédia>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> :DistribuceSoubor;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Zdroj.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce-DatováSlužba.přístupováSlužba> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DistribuceDatováSlužba>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#KontaktníBod.email> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> :Organizace;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Email.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce.přístupovéUrl> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> :Distribuce;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Zdroj.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce.příslušnýPrávníPředpis> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <http://www.w3.org/2004/02/skos/core#scopeNote> "Pro účely identifikace datové sady zpřístupněné datovým rozhraním dle vyhlášky č. 360/2023 Sb. musí obsahovat hodnoty: https://www.e-sbirka.cz/eli/cz/sb/2000/365/2024-01-20 https://www.e-sbirka.cz/sb/2023/360/2024-07-01"@cs;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#1n>;
+    <https://w3id.org/dsv#domain> :Distribuce;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#PrávníPředpis>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce.specifikacePodmínekUžití> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> :Distribuce;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba.příslušnýPrávníPředpis> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <http://www.w3.org/2004/02/skos/core#scopeNote> "Pro účely identifikace datové sady zpřístupněné datovým rozhraním dle vyhlášky č. 360/2023 Sb. musí obsahovat hodnoty: https://www.e-sbirka.cz/eli/cz/sb/2000/365/2024-01-20 https://www.e-sbirka.cz/sb/2023/360/2024-07-01"@cs;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#1n>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#PrávníPředpis>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba.přístupovýBodSlužby> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Zdroj.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba.popisPřístupovéhoBoduSlužby> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Zdroj.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba.specifikace> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#0n>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Standard.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba.dokumentace> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Dokument.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Katalog.poskytovatel> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> :Katalog;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Poskytovatel.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Katalog.kontaktníBod> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> :Katalog;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Organizace.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Katalog.domovskáStránka> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka>
+];
+    <https://w3id.org/dsv#domain> :Katalog;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Dokument.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Katalog.datováSada> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#0n>;
+    <https://w3id.org/dsv#domain> :Katalog;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.jeSoučástí> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SérieDatovýchSad>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.poskytovatel> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Poskytovatel.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.téma> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#0n>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatovéTéma>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.periodicitaAktualizace> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Frekvence.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.časovéPokrytí> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#ČasovýInterval>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.kontaktníBod> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Organizace.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.dokumentace> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Dokument.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.specifikace> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace>
+];
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Standard.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.klasifikaceDleEurovoc> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#0n>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#TémaEuroVoc>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.příslušnýPrávníPředpis> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <http://www.w3.org/2004/02/skos/core#scopeNote> "Pro účely identifikace datové sady zpřístupněné datovým rozhraním dle vyhlášky č. 360/2023 Sb. musí obsahovat hodnoty: https://www.e-sbirka.cz/eli/cz/sb/2000/365/2024-01-20 a https://www.e-sbirka.cz/sb/2023/360/2024-07-01"@cs;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#1n>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#PrávníPředpis>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.distribuce> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#0n>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Distribuce.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.týkáSePojmu> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/veřejný-sektor/pojem/týká-se-pojmu>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/veřejný-sektor/pojem/týká-se-pojmu>
+];
+    <https://w3id.org/dsv#property> <https://slovník.gov.cz/veřejný-sektor/pojem/týká-se-pojmu>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Pojem.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#InformačníSystémVeřejnéSprávy.zahrnuje> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zahrnuje>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zahrnuje>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#1n>;
+    <https://w3id.org/dsv#property> <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zahrnuje>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#InformačníSystémVeřejnéSprávy>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje.jeSdílenZpůsobem> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-způsobem>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-způsobem>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#1n>;
+    <https://w3id.org/dsv#property> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-způsobem>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#ZpůsobSdíleníÚdaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje.jeSdílenJako> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-jako>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-jako>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#property> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-jako>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#TypObsahuÚdaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje.jeZískánZpůsobem> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-získán-způsobem>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-získán-způsobem>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#property> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-získán-způsobem>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#ZpůsobZískáníÚdaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje.odpovídajícíPojem> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/odpovídající-pojem>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/odpovídající-pojem>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#property> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/odpovídající-pojem>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje>;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> :Pojem.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce.zprostředkováváSdílení> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/zprostředkovává-sdílení>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/zprostředkovává-sdílení>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#0n>;
+    <https://w3id.org/dsv#property> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/zprostředkovává-sdílení>;
+    <https://w3id.org/dsv#domain> :Distribuce;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce.máTypObsahuSdílenéhoRozhraním> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-typ-obsahu-sdíleného-rozhraním>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-typ-obsahu-sdíleného-rozhraním>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#1n>;
+    <https://w3id.org/dsv#property> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-typ-obsahu-sdíleného-rozhraním>;
+    <https://w3id.org/dsv#domain> :Distribuce;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#TypObsahuÚdaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce.máZpůsobSdíleníRozhraním> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-sdílení-rozhraním>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-sdílení-rozhraním>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#property> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-sdílení-rozhraním>;
+    <https://w3id.org/dsv#domain> :Distribuce;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#ZpůsobSdíleníÚdaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce.máZpůsobZískáníDatSdílenýchRozhraním> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-získání-dat-sdílených-rozhraním>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-získání-dat-sdílených-rozhraním>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#1n>;
+    <https://w3id.org/dsv#property> <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-získání-dat-sdílených-rozhraním>;
+    <https://w3id.org/dsv#domain> :Distribuce;
+    a <https://w3id.org/dsv#ObjectPropertyProfile>;
+    <https://w3id.org/dsv#objectPropertyRange> <https://ofn.gov.cz/dcat-ap-cz-360-2023#ZpůsobZískáníÚdaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití>;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití.jménaAutorůDíla> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#SpecifikacePodmínekUžití>;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#ČasovýInterval.datumZačátku> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#ČasovýInterval>;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <http://www.w3.org/2001/XMLSchema#date>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#ČasovýInterval.datumKonce> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#ČasovýInterval>;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <http://www.w3.org/2001/XMLSchema#date>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#KontaktníBod.jméno> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> :Organizace;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce.název> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.název>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.název>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.název>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Distribuce.název>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#01>;
+    <https://w3id.org/dsv#domain> :Distribuce;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba.název> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSlužba>;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Katalog.popis> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Katalog.popis>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.popis>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.popis>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.popis>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> :Katalog;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#Katalog.název> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#Katalog.název>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.název>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.název>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#Katalog.název>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> :Katalog;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.název> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.název>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.název>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.název>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.název>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.popis> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#11>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada.klíčovéSlovo> <http://purl.org/dc/terms/isPartOf> <https://ofn.gov.cz/dcat-ap-cz-360-2023#>;
+    a <https://w3id.org/dsv#TermProfile>;
+    <https://w3id.org/dsv#profileOf> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo>;
+    <https://w3id.org/dsv#reusesPropertyValue> [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#prefLabel>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#definition>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo>
+], [
+  a <https://w3id.org/dsv#PropertyValueReuse>;
+  <https://w3id.org/dsv#reusedProperty> <http://www.w3.org/2004/02/skos/core#scopeNote>;
+  <https://w3id.org/dsv#reusedFromResource> <https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo>
+];
+    <https://w3id.org/dsv#cardinality> <https://w3id.org/dsv/cardinality#1n>;
+    <https://w3id.org/dsv#domain> <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    a <https://w3id.org/dsv#DatatypePropertyProfile>;
+    <https://w3id.org/dsv#datatypePropertyRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString>.

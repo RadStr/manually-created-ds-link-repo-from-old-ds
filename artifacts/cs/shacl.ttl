@@ -1,0 +1,146 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#> rdfs:member <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/veřejný-sektor/pojem/datová-sadaShape>, <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape>, <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojemShape>, <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape>, <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údajeShape>, <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údajeShape>, <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údajeShape>, <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správyShape>, <https://ofn.gov.cz/dcat-ap-cz-360-2023#vcard:OrganizationShape>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/veřejný-sektor/pojem/datová-sadaShape> a sh:NodeShape;
+    rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-360-2023#DatováSada>;
+    sh:closed false;
+    sh:targetClass <https://slovník.gov.cz/veřejný-sektor/pojem/datová-sada>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/veřejný-sektor/pojem/datová-sadaShape/3f263257> a sh:PropertyShape;
+    sh:name "týká se pojmu"@cs;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://slovník.gov.cz/veřejný-sektor/pojem/týká-se-pojmu>;
+    sh:class <https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojem>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/veřejný-sektor/pojem/datová-sadaShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/veřejný-sektor/pojem/datová-sadaShape/3f263257>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape> a sh:NodeShape;
+    rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-360-2023#Distribuce>;
+    sh:closed false;
+    sh:targetClass <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraní>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape/3910d74b> a sh:PropertyShape;
+    sh:name "zprostředkovává sdílení"@cs;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/zprostředkovává-sdílení>;
+    sh:class <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape/3910d74b>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape/687647ee> a sh:PropertyShape;
+    sh:name "má typ obsahu sdíleného rozhraním"@cs;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-typ-obsahu-sdíleného-rozhraním>;
+    sh:minCount 1;
+    sh:class <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape/687647ee>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape/-287ca628> a sh:PropertyShape;
+    sh:name "má způsob sdílení rozhraním"@cs;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-sdílení-rozhraním>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape/-287ca628>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape/-3157e4ae> a sh:PropertyShape;
+    sh:name "má způsob získání dat sdílených rozhraním"@cs;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-získání-dat-sdílených-rozhraním>;
+    sh:minCount 1;
+    sh:class <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape/-3157e4ae>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojemShape> a sh:NodeShape;
+    rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-360-2023#Pojem>;
+    sh:closed false;
+    sh:targetClass <https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojem>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape> a sh:NodeShape;
+    rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-360-2023#SdíleníÚdaje>;
+    sh:closed false;
+    sh:targetClass <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape/-403463fd> a sh:PropertyShape;
+    sh:name "je sdílen způsobem"@cs;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-způsobem>;
+    sh:minCount 1;
+    sh:class <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape/-403463fd>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape/59c7c199> a sh:PropertyShape;
+    sh:name "je sdílen jako"@cs;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-jako>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape/59c7c199>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape/-639961dd> a sh:PropertyShape;
+    sh:name "je získán způsobem"@cs;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-získán-způsobem>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape/-639961dd>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape/543a254f> a sh:PropertyShape;
+    sh:name "odpovídající pojem"@cs;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/odpovídající-pojem>;
+    sh:maxCount 1;
+    sh:minCount 1;
+    sh:class <https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojem>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údajeShape/543a254f>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údajeShape> a sh:NodeShape;
+    rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-360-2023#ZpůsobSdíleníÚdaje>;
+    sh:closed false;
+    sh:targetClass <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údajeShape> a sh:NodeShape;
+    rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-360-2023#ZpůsobZískáníÚdaje>;
+    sh:closed false;
+    sh:targetClass <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údajeShape> a sh:NodeShape;
+    rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-360-2023#TypObsahuÚdaje>;
+    sh:closed false;
+    sh:targetClass <https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údaje>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správyShape> a sh:NodeShape;
+    rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-360-2023#InformačníSystémVeřejnéSprávy>;
+    sh:closed false;
+    sh:targetClass <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správyShape/49ce977a> a sh:PropertyShape;
+    sh:name "zahrnuje"@cs;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:path <https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zahrnuje>;
+    sh:minCount 1;
+    sh:class <https://slovník.gov.cz/veřejný-sektor/pojem/datová-sada>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správyShape> sh:property <https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správyShape/49ce977a>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#vcard:OrganizationShape> a sh:NodeShape;
+    rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-360-2023#Organizace>;
+    sh:closed false;
+    sh:targetClass <http://www.w3.org/2006/vcard/ns#Organization>.
+
+<https://ofn.gov.cz/dcat-ap-cz-360-2023#https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraníShape> rdfs:seeAlso <https://ofn.gov.cz/dcat-ap-cz-360-2023#DistribuceDatováSlužba>, <https://ofn.gov.cz/dcat-ap-cz-360-2023#DistribuceSoubor>.
+

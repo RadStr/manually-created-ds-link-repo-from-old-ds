@@ -1,0 +1,100 @@
+{
+  "identifier": "7wzve",
+  "version": 1,
+  "type": "http://dataspecer.com/resources/local/visual-model",
+  "entities": [
+    {
+      "type": [
+        "http://dataspecer.com/resources/local/visual-model"
+      ],
+      "representedModel": "e5ed78a2-1b08-4e95-8602-f8160caf223c",
+      "color": "#ffb770",
+      "identifier": "xsmrs"
+    },
+    {
+      "type": [
+        "http://dataspecer.com/resources/local/visual-model"
+      ],
+      "representedModel": "rlmju",
+      "color": "#92bcea",
+      "identifier": "9db1f"
+    },
+    {
+      "model": "e5ed78a2-1b08-4e95-8602-f8160caf223c",
+      "representedEntity": "y1zfn4ysx6fm7xdp67s",
+      "position": {
+        "x": 1450,
+        "y": -340,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "gldmb"
+    },
+    {
+      "model": "e5ed78a2-1b08-4e95-8602-f8160caf223c",
+      "representedEntity": "d9r04ar8r58m7xecuvl",
+      "position": {
+        "x": 1930,
+        "y": -340,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "jcybd"
+    },
+    {
+      "model": "e5ed78a2-1b08-4e95-8602-f8160caf223c",
+      "representedEntity": "hykk71m5hkdm7xefe0a",
+      "position": {
+        "x": 1410,
+        "y": -570,
+        "anchored": null
+      },
+      "content": [],
+      "visualModels": [],
+      "type": [
+        "visual-node"
+      ],
+      "identifier": "lnvce"
+    },
+    {
+      "model": "e5ed78a2-1b08-4e95-8602-f8160caf223c",
+      "representedRelationship": "d91gp9mzp5m7xedn1n",
+      "waypoints": [],
+      "visualSource": "gldmb",
+      "visualTarget": "jcybd",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "83pqvf"
+    },
+    {
+      "model": "e5ed78a2-1b08-4e95-8602-f8160caf223c",
+      "representedRelationship": "phjz1zpm3fkm7xefoj8",
+      "waypoints": [],
+      "visualSource": "lnvce",
+      "visualTarget": "gldmb",
+      "type": [
+        "visual-relationship"
+      ],
+      "identifier": "5yyop"
+    },
+    {
+      "identifier": "7wzve-model-metadata-entity",
+      "type": [
+        "entity-model-type"
+      ],
+      "label": {
+        "en": "Dataset annotation with related terms",
+        "cs": "Anotace datové sady souvisejícími pojmy a ISVS, který ji zahrnuje"
+      }
+    }
+  ]
+}

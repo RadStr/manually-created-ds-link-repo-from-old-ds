@@ -1,0 +1,15 @@
+{
+  "iri": "hvxg5",
+  "types": [
+    "http://dataspecer.com/resources/local/visual-model"
+  ],
+  "userMetadata": {},
+  "metadata": {
+    "creationDate": "2025-11-03T09:09:38.060Z",
+    "modificationDate": "2025-11-03T09:09:38.125Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2025-12-25T09:36:10.438Z",
+  "_exportedBy": "http://localhost:3100"
+}

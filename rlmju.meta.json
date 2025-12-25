@@ -1,0 +1,15 @@
+{
+  "iri": "rlmju",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/sgov"
+  ],
+  "userMetadata": {},
+  "metadata": {
+    "creationDate": "2025-11-03T09:09:38.221Z",
+    "modificationDate": "2025-11-03T09:09:38.253Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2025-12-25T09:36:10.448Z",
+  "_exportedBy": "http://localhost:3100"
+}

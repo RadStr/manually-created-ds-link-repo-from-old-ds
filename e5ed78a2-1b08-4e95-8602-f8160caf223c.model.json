@@ -1,0 +1,3598 @@
+{
+  "type": "http://dataspecer.com/resources/local/semantic-model",
+  "modelId": "e5ed78a2-1b08-4e95-8602-f8160caf223c",
+  "modelAlias": "DCAT-AP-CZ: Specifikace pro vyhlášku č. 360/2023 Sb., o dlouhodobém řízení informačních systémů veřejné správy",
+  "baseIri": "https://ofn.gov.cz/dcat-ap-cz-360-2023#",
+  "entities": {
+    "y1zfn4ysx6fm7xdp67s": {
+      "id": "y1zfn4ysx6fm7xdp67s",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "ja": "1つのエージェントによって公開またはキュレートされ、1つ以上の形式でアクセスまたはダウンロードできるデータの集合。",
+        "en": "A conceptual entity that represents the information published.",
+        "cs": "Kolekce dat poskytovaná či řízená jedním zdrojem, která je k dispozici pro přístup či stažení v jednom či více formátech.",
+        "it": "Raccolta di dati, pubblicati o curati da un'unica fonte, disponibili per l'accesso o il download in uno o più formati.",
+        "es": "Una colección de datos, publicados o conservados por una única fuente, y disponibles para ser accedidos o descargados en uno o más formatos.",
+        "fr": "Une collection de données, publiée ou élaborée par une seule source, et disponible pour accès ou téléchargement dans un ou plusieurs formats.",
+        "el": "Μία συλλογή από δεδομένα, δημοσιευμένη ή επιμελημένη από μία και μόνο πηγή, διαθέσιμη δε προς πρόσβαση ή μεταφόρτωση σε μία ή περισσότερες μορφές.",
+        "ar": "قائمة بيانات منشورة أو مجموعة من قبل مصدر ما و متاح الوصول إليها أو تحميلها",
+        "da": "En samling af data, udgivet eller udvalgt og arrangeret af en enkelt kilde og som er til råde for adgang til eller download af i en eller flere repræsentationer."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+      "name": {
+        "es": "Conjunto de datos",
+        "en": "Dataset",
+        "it": "Dataset",
+        "cs": "Datová sada",
+        "fr": "Jeu de données",
+        "el": "Σύνολο Δεδομένων",
+        "ar": "قائمة بيانات",
+        "ja": "データセット",
+        "da": "Datasæt"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+      "iri": "DatováSada",
+      "usageNote": {
+        "en": "If a Dataset is used as part of a Dataset Series, the usage of the properties listed below must be coherent with the associated Dataset Series. For this usage, consult the guidelines in section 14. General usage guidelines."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada",
+      "profiling": [
+        "https://slovník.gov.cz/veřejný-sektor/pojem/datová-sada",
+        "https://ofn.gov.cz/dcat-ap-cz#DatováSada"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "regex": "^https://.*$"
+    },
+    "2k7wafeu31gm7xdp9kd": {
+      "id": "2k7wafeu31gm7xdp9kd",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A catalogue or repository that hosts the Datasets or Data Services being described.",
+        "es": "Una colección curada de metadatos sobre recursos (por ejemplo, conjuntos de datos y servicios de datos en el contexto de un catálogo de datos).",
+        "it": "Una raccolta curata di metadati sulle risorse (ad es. sui dataset e relativi servizi nel contesto di cataloghi di dati).",
+        "fr": "Une collection élaborée de métadonnées sur les jeux de données",
+        "cs": "Řízená kolekce metadat o datových sadách a datových službách",
+        "el": "Μια επιμελημένη συλλογή μεταδεδομένων περί συνόλων δεδομένων",
+        "ar": "مجموعة من توصيفات قوائم البيانات",
+        "ja": "データ・カタログは、データセットに関するキュレートされたメタデータの集合です。",
+        "da": "En udvalgt og arrangeret samling af metadata om ressourcer (fx datasæt og datatjenester i kontekst af et datakatalog). "
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog",
+      "name": {
+        "en": "Catalogue",
+        "it": "Catalogo",
+        "fr": "Catalogue",
+        "es": "Catálogo",
+        "cs": "Katalog",
+        "el": "Κατάλογος",
+        "ar": "فهرس قوائم البيانات",
+        "ja": "カタログ",
+        "da": "Katalog"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog",
+      "iri": "Katalog",
+      "usageNote": {
+        "en": "A Web-based data catalog is typically represented as a single instance of this class.\nDatasets and data services are examples of resources in the context of a data catalog."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Katalog"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "rfatetrz4hdm7xdpcsw": {
+      "id": "rfatetrz4hdm7xdpcsw",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A collection of operations that provides access to one or more datasets or data processing functions.",
+        "cs": "Umístění či přístupový bod poskytující operace související s hledáním, přistupem k, či výkonem funkcí na datech či souvisejících zdrojích.",
+        "es": "Un sitio o end-point que provee operaciones relacionadas a funciones de descubrimiento, acceso, o procesamiento de datos o recursos relacionados.",
+        "it": "Un sito o end-point che fornisce operazioni relative alla scoperta, all'accesso o all'elaborazione di funzioni su dati o risorse correlate.",
+        "da": "Et websted eller endpoint der udstiller operationer relateret til opdagelse af, adgang til eller behandlende funktioner på data eller relaterede ressourcer."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+      "name": {
+        "en": "Data service",
+        "it": "Servizio di dati",
+        "es": "Servicio de datos",
+        "da": "Datatjeneste",
+        "cs": "Datová služba"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+      "iri": "DatováSlužba",
+      "usageNote": {
+        "en": "If a dcat:DataService is bound to one or more specified Datasets, they are indicated by the dcat:servesDataset property.\nThe kind of service can be indicated using the dcterms:type property. Its value may be taken from a controlled vocabulary such as the INSPIRE spatial data service type code list [INSPIRE-SDST]."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "regex": "^https://.*$"
+    },
+    "j9d4jypnb7jm7xdpeqw": {
+      "id": "j9d4jypnb7jm7xdpeqw",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A collection of datasets that are published separately, but share some characteristics that group them.",
+        "it": "Una collezione di dataset che sono pubblicati separatamente, ma che condividono caratteristiche che li rendono parte di uno stesso gruppo.",
+        "es": "Una colección de conjuntos de datos publicados por separado, pero que comparten características que los agrupan.",
+        "cs": "Série datových sad zastřešuje související datové sady a série. Souvislost může být časová (rozpočet v letech), prostorová (seznamy ulic v obcích) či tématická (datové sady z jednoho systému). Datová série je podtřídou Datové sady, ale nemá vlastní distribuce. Související DCAT-AP issue o typech datových sérií."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+      "name": {
+        "en": "Dataset series",
+        "es": "Serie de conjuntos de datos",
+        "it": "Serie di dataset",
+        "cs": "Série datových sad"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+      "iri": "SérieDatovýchSad",
+      "usageNote": {
+        "en": "It is recommended to avoid Dataset Series without a dataset in the collection. Therefore at least one Dataset should refer to a Dataset Series using the property in series (dcat:inSeries)."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#SérieDatovýchSad"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "regex": "^https://.*$"
+    },
+    "djstwrb2xmdm7xdpjib": {
+      "id": "djstwrb2xmdm7xdpjib",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).",
+        "cs": "Konkrétní reprezentace datové sady. Datová sada může být dostupná v různých serializacích, které se mohou navzájem lišit různými způsoby, mimo jiné přirozeným jazykem, media-typem či formátem, schematickou organizací, časovým a prostorovým rozlišením, úrovní detailu či profily (které mohou specifikovat některé či všechny tyto rozdíly).",
+        "it": "Rappresenta una forma disponibile e specifica del dataset. Ciascun dataset può essere disponibile in forme differenti, che possono rappresentare formati diversi o diversi punti di accesso per un dataset. Esempi di distribuzioni sono un file CSV scaricabile, una API o un RSS feed.",
+        "fr": "Représente une forme spécifique d'un jeu de données. Caque jeu de données peut être disponible sous différentes formes, celles-ci pouvant représenter différents formats du jeu de données ou différents endpoint. Des exemples de distribution sont des fichirs CSV, des API ou des flux RSS.",
+        "es": "Una representación específica de los datos. Cada conjunto de datos puede estar disponible en formas diferentes, las cuáles pueden variar en distintas formas, incluyendo el idioma, 'media-type' o formato, organización esquemática, resolución temporal y espacial, nivel de detalle o perfiles (que pueden especificar cualquiera o todas las diferencias anteriores).",
+        "el": "Αναπαριστά μία συγκεκριμένη διαθέσιμη μορφή ενός συνόλου δεδομένων. Κάθε σύνολο δεδομενων μπορεί να είναι διαθέσιμο σε διαφορετικές μορφές, οι μορφές αυτές μπορεί να αναπαριστούν διαφορετικές μορφές αρχείων ή διαφορετικά σημεία διάθεσης. Παραδείγματα διανομών συμπεριλαμβάνουν ένα μεταφορτώσιμο αρχείο μορφής CSV, ένα API ή ένα RSS feed.",
+        "ar": "شكل محدد لقائمة البيانات يمكن الوصول إليه. قائمة بيانات ما يمكن أن تكون متاحه باشكال و أنواع متعددة.  ملف يمكن تحميله أو واجهة برمجية يمكن من خلالها الوصول إلى البيانات هي أمثلة على ذلك.",
+        "ja": "データセットの特定の利用可能な形式を表わします。各データセットは、異なる形式で利用できることがあり、これらの形式は、データセットの異なる形式や、異なるエンドポイントを表わす可能性があります。配信の例には、ダウンロード可能なCSVファイル、API、RSSフィードが含まれます。",
+        "da": "En specifik repræsentation af et datasæt. Et datasæt kan være tilgængelig i mange serialiseringer der kan variere på forskellige vis, herunder sprog, medietype eller format, systemorganisering, tidslig- og geografisk opløsning, detaljeringsniveau eller profiler (der kan specificere en eller flere af ovenstående)."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+      "name": {
+        "cs": "Distribuce",
+        "es": "Distribución",
+        "en": "Distribution",
+        "fr": "Distribution",
+        "it": "Distribuzione",
+        "el": "Διανομή",
+        "ar": "التوزيع",
+        "ja": "配信",
+        "da": "Distribution"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+      "iri": "Distribuce",
+      "usageNote": {
+        "en": "This represents a general availability of a dataset. It implies no information about the actual access method of the data, i.e., whether by direct download, API, or through a Web page. The use of dcat:downloadURL property indicates directly downloadable distributions."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce",
+      "profiling": [
+        "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraní",
+        "https://ofn.gov.cz/dcat-ap-cz#Distribuce"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "regex": "^https://.*$"
+    },
+    "73y1fhyeajim7xdpukp": {
+      "id": "73y1fhyeajim7xdpukp",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "An interval of time that is named or defined by its start and end.",
+        "cs": "Časový interval definovaný svým začátkem a koncem."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval",
+      "name": {
+        "en": "Period of Time",
+        "cs": "Časový interval"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval",
+      "iri": "ČasovýInterval",
+      "usageNote": {
+        "en": "The start and end of the interval SHOULD be given by using properties dcat:startDate or time:hasBeginning, and dcat:endDate or time:hasEnd, respectively. The interval can also be open - i.e., it can have just a start or just an end."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ]
+    },
+    "wb6ljn9dy4m7xdq2xp": {
+      "id": "wb6ljn9dy4m7xdq2xp",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A media type or extent."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#FormátSouboru",
+      "name": {
+        "en": "Media Type or Extent",
+        "cs": "Formát souboru"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#FormátSouboru",
+      "iri": "FormátSouboru",
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#FormátSouboru",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#FormátSouboru"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "regex": "^http://publications\\.europa\\.eu/resource/authority/file-type/.*$",
+      "example": [
+        "http://publications.europa.eu/resource/authority/file-type/CSV"
+      ]
+    },
+    "wiip9i1415m7xdq4uv": {
+      "id": "wiip9i1415m7xdq4uv",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A file format or physical medium."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#TypMédia",
+      "name": {
+        "en": "Media Type",
+        "cs": "Typ média"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#TypMédia",
+      "iri": "TypMédia",
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#TypMédia",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#TypMédia"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "regex": "^http://www\\.iana\\.org/assignments/media-types/.*$",
+      "example": [
+        "http://www.iana.org/assignments/media-types/image/tiff"
+      ]
+    },
+    "fc4k3ler8am7xdq8l6": {
+      "id": "fc4k3ler8am7xdq8l6",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A rate at which something recurs, e.g. the publication of a Dataset."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Frekvence",
+      "name": {
+        "en": "Frequency",
+        "cs": "Frekvence"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Frekvence",
+      "iri": "Frekvence",
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Frekvence",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Frekvence"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "regex": "^http://publications\\.europa\\.eu/resource/authority/frequency/.*$",
+      "example": [
+        "http://publications.europa.eu/resource/authority/frequency/MONTHLY"
+      ]
+    },
+    "cekoncua9cfm7xdqb4i": {
+      "id": "cekoncua9cfm7xdqb4i",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "An idea or notion; a unit of thought."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Koncept",
+      "name": {
+        "en": "Concept",
+        "cs": "Koncept"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Koncept",
+      "iri": "Koncept",
+      "usageNote": {
+        "en": "In DCAT-AP, a Concept is used to denote codes within a codelist. In section 10. Controlled Vocabularies the expectations are elaborated in more detail."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Koncept",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Koncept"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ]
+    },
+    "1apgucxrfgxm7xdqdn3": {
+      "id": "1apgucxrfgxm7xdqdn3",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "An idea or notion; a unit of thought."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc",
+      "name": {
+        "en": "Concept",
+        "cs": "Téma EuroVoc"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc",
+      "iri": "TémaEuroVoc",
+      "usageNote": {
+        "en": "In DCAT-AP, a Concept is used to denote codes within a codelist. In section 10. Controlled Vocabularies the expectations are elaborated in more detail."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#TémaEuroVoc"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "regex": "^http://eurovoc\\.europa\\.eu/.*$",
+      "example": [
+        "http://eurovoc.europa.eu/1001"
+      ]
+    },
+    "m1p5jioy8lgm7xdqg2g": {
+      "id": "m1p5jioy8lgm7xdqg2g",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "An idea or notion; a unit of thought."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatovéTéma",
+      "name": {
+        "en": "Concept",
+        "cs": "Datové téma"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatovéTéma",
+      "iri": "DatovéTéma",
+      "usageNote": {
+        "en": "In DCAT-AP, a Concept is used to denote codes within a codelist. In section 10. Controlled Vocabularies the expectations are elaborated in more detail."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatovéTéma",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#DatovéTéma"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "regex": "^http://publications\\.europa\\.eu/resource/authority/data-theme/.*$",
+      "example": [
+        "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+      ]
+    },
+    "7etnubafpvwm7xdqo72": {
+      "id": "7etnubafpvwm7xdqo72",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "This class represents the legislation,policy or policies that lie behind the Rules that govern the service."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis",
+      "name": {
+        "en": "Legal Resource",
+        "cs": "Právní předpis"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis",
+      "iri": "PrávníPředpis",
+      "usageNote": {
+        "en": "The definition and properties of the Legal Resource class are aligned with the ontology included in \"Council conclusions inviting the introduction of the European Legislation Identifier (ELI)\". For describing the attributes of a Legal Resource (labels, preferred labels, alternative labels, definition, etc.) we refer to the (ELI) ontology. In this data specification the use is restricted to instances of this class that follow the (ELI) URI guidelines."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#PrávníPředpis"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "h6cudvufeim7xdqqkp": {
+      "id": "h6cudvufeim7xdqqkp",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "Any entity carrying out actions with respect to the entities Catalogue and the Catalogued Resources.",
+        "cs": "Poskytovatel dat"
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Poskytovatel",
+      "name": {
+        "en": "Agent",
+        "cs": "Poskytovatel"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Poskytovatel",
+      "iri": "Poskytovatel",
+      "usageNote": {
+        "en": "If the Agent is an organisation, the use of the Organization Ontology is recommended."
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Poskytovatel",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Poskytovatel"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "example": [
+        "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008"
+      ],
+      "regex": "^https://rpp-opendata\\.egon\\.gov\\.cz/odrpp/zdroj/orgán-veřejné-moci/[^/]+$"
+    },
+    "xmdv5sqg1am7xdqslu": {
+      "id": "xmdv5sqg1am7xdqslu",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "Anything described by RDF.",
+        "cs": "Cokoliv, co má URL ve schématu HTTPS."
+      },
+      "descriptionFromProfiled": null,
+      "name": {
+        "en": "Resource",
+        "cs": "Zdroj"
+      },
+      "nameFromProfiled": null,
+      "iri": "Zdroj",
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Zdroj"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "regex": "^https://.*$",
+      "example": [
+        "https://www.trebic.cz/zdroj/aktualita/2020/dopadení-lupiče-na-francouzské-ulici"
+      ]
+    },
+    "6lmyixr5t8cm7xdqw2v": {
+      "id": "6lmyixr5t8cm7xdqw2v",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A standard or other specification to which a resource conforms.",
+        "cs": "Standard, specifikace."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Standard",
+      "name": {
+        "en": "Standard",
+        "cs": "Standard"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Standard",
+      "iri": "Standard",
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Standard",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Standard"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "regex": "^https://.*$",
+      "example": [
+        "https://ofn.gov.cz/turistické-cíle/2020-07-01/"
+      ]
+    },
+    "tolz24h39om7xdqxzd": {
+      "id": "tolz24h39om7xdqxzd",
+      "type": [
+        "class-profile"
+      ],
+      "description": {},
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+      "name": {
+        "cs": "Specifikace podmínek užití",
+        "en": "Terms of use specification"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+      "iri": "SpecifikacePodmínekUžití",
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "8ughfpv5uhm7xdqzye": {
+      "id": "8ughfpv5uhm7xdqzye",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A legal document giving official permission to do something with a resource."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Licence",
+      "name": {
+        "en": "License Document",
+        "cs": "Licence"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Licence",
+      "iri": "Licence",
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Licence",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Licence"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "example": [
+        "https://data.gov.cz/podmínky-užití/neobsahuje-autorská-díla/",
+        "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://creativecommons.org/publicdomain/zero/1.0/",
+        "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/",
+        "https://data.gov.cz/podmínky-užití/obsahuje-osobní-údaje/"
+      ]
+    },
+    "tways7gfo2m7xds2od": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "tolz24h39om7xdqxzd"
+        },
+        {
+          "name": {
+            "cs": "Originální databáze",
+            "en": "Copyrighted database"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze",
+          "description": {},
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze",
+          "iri": "SpecifikacePodmínekUžití.originálníDatabáze",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.originálníDatabáze"
+          ],
+          "concept": "8ughfpv5uhm7xdqzye"
+        }
+      ],
+      "id": "tways7gfo2m7xds2od",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "svar8c8y6mom7xds8x4": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "tolz24h39om7xdqxzd"
+        },
+        {
+          "name": {
+            "cs": "Autorské dílo",
+            "en": "Copyrighted work"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo",
+          "description": {},
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo",
+          "iri": "SpecifikacePodmínekUžití.autorskéDílo",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.autorskéDílo"
+          ],
+          "concept": "8ughfpv5uhm7xdqzye"
+        }
+      ],
+      "id": "svar8c8y6mom7xds8x4",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "22sss622cnmm7xdsejh": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "tolz24h39om7xdqxzd"
+        },
+        {
+          "name": {
+            "cs": "Zvláštní právo pořizovatele databáze",
+            "en": "Sui generis database rights"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze",
+          "description": {},
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze",
+          "iri": "SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.zvláštníPrávoPořizovateleDatabáze"
+          ],
+          "concept": "8ughfpv5uhm7xdqzye"
+        }
+      ],
+      "id": "22sss622cnmm7xdsejh",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "cccbj879bem7xdsnn7": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "tolz24h39om7xdqxzd"
+        },
+        {
+          "name": {
+            "cs": "Osobní údaje",
+            "en": "Personal data"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje",
+          "description": {},
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje",
+          "iri": "SpecifikacePodmínekUžití.osobníÚdaje",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.osobníÚdaje"
+          ],
+          "concept": "8ughfpv5uhm7xdqzye"
+        }
+      ],
+      "id": "cccbj879bem7xdsnn7",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "mrshipfuv3m7xdssi5": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "tolz24h39om7xdqxzd"
+        },
+        {
+          "name": {
+            "cs": "Jména autorů originální databáze",
+            "en": "Names of authors of database"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze",
+          "description": {},
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze",
+          "iri": "SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůOriginálníDatabáze"
+          ],
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "languageStringRequiredLanguages": []
+        }
+      ],
+      "id": "mrshipfuv3m7xdssi5",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "iounwan0zu8m7xdswu9": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "tolz24h39om7xdqxzd"
+        },
+        {
+          "name": {
+            "cs": "Jména autorů díla",
+            "en": "Names of authors"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla",
+          "description": {},
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla",
+          "iri": "SpecifikacePodmínekUžití.jménaAutorůDíla",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#SpecifikacePodmínekUžití.jménaAutorůDíla"
+          ],
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "languageStringRequiredLanguages": []
+        }
+      ],
+      "id": "iounwan0zu8m7xdswu9",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "g5wd8wc7b4nm7xdt9sn": {
+      "id": "g5wd8wc7b4nm7xdt9sn",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "oeme8qe07amckdo9d5",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "es": "URL de descarga",
+            "fr": "URL de téléchargement",
+            "it": "URL di scarico",
+            "cs": "Odkaz na stažení souboru",
+            "el": "URL μεταφόρτωσης",
+            "en": "download URL",
+            "ar": "رابط تحميل",
+            "ja": "ダウンロードURL",
+            "da": "downloadURL"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru",
+          "description": {
+            "fr": "Ceci est un lien direct à un fichier téléchargeable en un format donnée. Exple fichier CSV ou RDF. Le format est décrit par les propriétés de distribution dcterms:format et/ou dcat:mediaType.",
+            "es": "La URL de un archivo descargable en el formato dato. Por ejemplo, archivo CSV o archivo RDF. El formato se describe con las propiedades de la distribución dcterms:format y/o dcat:mediaType.",
+            "it": "Questo è un link diretto al file scaricabile in un dato formato. E.g. un file CSV o un file RDF. Il formato è descritto dal dcterms:format e/o dal dcat:mediaType della distribuzione.",
+            "en": "A URL that is a direct link to a downloadable file in a given format.",
+            "cs": "URL, které je přímým odkazem na stažitelný soubor v daném formátu.",
+            "ja": "dcat:downloadURLはdcat:accessURLの特定の形式です。しかし、DCATプロファイルが非ダウンロード・ロケーションに対してのみaccessURLを用いる場合には、より強い分離を課すことを望む可能性があるため、この含意を強化しないように、DCATは、dcat:downloadURLをdcat:accessURLのサブプロパティーであると定義しません。",
+            "el": "Είναι ένας σύνδεσμος άμεσης μεταφόρτωσης ενός αρχείου σε μια δεδομένη μορφή. Π.χ. ένα αρχείο CSV ή RDF. Η μορφη αρχείου περιγράφεται από τις ιδιότητες dcterms:format ή/και dcat:mediaType της διανομής.",
+            "ar": "رابط مباشر لملف يمكن تحميله. نوع الملف يتم توصيفه باستخدام الخاصية dcterms:format dcat:mediaType ",
+            "da": "URL til fil der kan downloades i et bestemt format. Fx en CSV-fil eller en RDF-fil. Formatet for distributionen angives ved hjælp af egenskaberne dcterms:format og/eller dcat:mediaType."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru",
+          "iri": "Distribuce-SouborKeStažení.odkazNaStaženíSouboru",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.odkazNaStaženíSouboru"
+          ],
+          "concept": "xmdv5sqg1am7xdqslu",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "y9sjfldnhrm7xdtfwa": {
+      "id": "y9sjfldnhrm7xdtfwa",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "oeme8qe07amckdo9d5",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "format",
+            "cs": "formát souboru ke stažení"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení",
+          "description": {
+            "en": "The file format of the distribution.",
+            "cs": "Tato vlastnost odkazuje na typ souboru s distribucí."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení",
+          "iri": "Distribuce-SouborKeStažení.formátSouboruKeStažení",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátSouboruKeStažení"
+          ],
+          "concept": "wb6ljn9dy4m7xdq2xp",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "fu6evxdjesim7xdtknb": {
+      "id": "fu6evxdjesim7xdtknb",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "oeme8qe07amckdo9d5",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "media type",
+            "es": "tipo de media",
+            "it": "tipo di media",
+            "cs": "typ média",
+            "fr": "type de média",
+            "el": "τύπος μέσου",
+            "ar": "نوع الميديا",
+            "ja": "メディア・タイプ",
+            "da": "medietype"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia",
+          "description": {
+            "fr": "Cette propriété doit être utilisée quand c'est définit le type de média de la distribution en IANA, sinon dcterms:format DOIT être utilisé avec différentes valeurs.",
+            "es": "Esta propiedad debe ser usada cuando está definido el tipo de media de la distribución en IANA, de otra manera dcterms:format puede ser utilizado con diferentes valores",
+            "it": "Il tipo di media della distribuzione come definito da IANA",
+            "en": "The media type of the distribution as defined by IANA",
+            "cs": "Typ média distribuce definovaný v IANA.",
+            "el": "Η ιδιότητα αυτή ΘΑ ΠΡΕΠΕΙ να χρησιμοποιείται όταν ο τύπος μέσου μίας διανομής είναι ορισμένος στο IANA, αλλιώς η ιδιότητα dcterms:format ΔΥΝΑΤΑΙ να χρησιμοποιηθεί με διαφορετικές τιμές.",
+            "ar": "يجب استخدام هذه الخاصية إذا كان نوع الملف معرف ضمن IANA",
+            "ja": "このプロパティーは、配信のメディア・タイプがIANAで定義されているときに使用すべきで（SHOULD）、そうでない場合には、dcterms:formatを様々な値と共に使用できます（MAY）。",
+            "da": "Medietypen for distributionen som den er defineret af IANA."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia",
+          "iri": "Distribuce-SouborKeStažení.typMédia",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.typMédia"
+          ],
+          "concept": "wiip9i1415m7xdq4uv",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "p7ppncf3zudm7xdtu79": {
+      "id": "p7ppncf3zudm7xdtu79",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "oeme8qe07amckdo9d5",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "es": "formato de empaquetado",
+            "it": "formato di impacchettamento",
+            "cs": "formát balíčku",
+            "en": "packaging format",
+            "da": "pakkeformat"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku",
+          "description": {
+            "cs": "Balíčkový formát souboru, ve kterém je jeden či více souborů seskupeno dohromady, např. aby bylo možné stáhnout sadu souvisejících souborů naráz.",
+            "es": "El formato del archivo en que se agrupan uno o más archivos de datos, e.g. para permitir que un conjunto de archivos relacionados se bajen juntos.",
+            "it": "Il formato di impacchettamento della distribuzione in cui uno o più file di dati sono raggruppati insieme, ad es. per abilitare un insieme di file correlati da scaricare insieme.",
+            "en": "The package format of the distribution in which one or more data files are grouped together, e.g. to enable a set of related files to be downloaded together.",
+            "da": "Format til pakning af data med henblik på distribution af en eller flere relaterede datafiler der samles til en enhed med henblik på samlet distribution. "
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku",
+          "iri": "Distribuce-SouborKeStažení.formátBalíčku",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátBalíčku"
+          ],
+          "concept": "wiip9i1415m7xdq4uv",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "tmm7gjapuhkm7xdtyw8": {
+      "id": "tmm7gjapuhkm7xdtyw8",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "oeme8qe07amckdo9d5",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "compression format",
+            "es": "formato de compresión",
+            "it": "formato di compressione",
+            "cs": "formát komprese",
+            "da": "kompressionsformat"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese",
+          "description": {
+            "es": "El formato de la distribución en el que los datos están en forma comprimida, e.g. para reducir el tamaño del archivo a bajar.",
+            "cs": "Formát komprese souboru, ve kterém jsou data poskytována v komprimované podobě, např. ke snížení velikosti souboru ke stažení.",
+            "it": "Il formato di compressione della distribuzione nel quale i dati sono in forma compressa, ad es. per ridurre le dimensioni del file da scaricare.",
+            "en": "The format of the file in which the data is contained in a compressed form, e.g. to reduce the size of the downloadable file.",
+            "da": "Kompressionsformatet for distributionen som indeholder data i et komprimeret format, fx for at reducere størrelsen af downloadfilen."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese",
+          "iri": "Distribuce-SouborKeStažení.formátKomprese",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.formátKomprese"
+          ],
+          "concept": "wiip9i1415m7xdq4uv",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "iph9x4wy2gm7xdu45j": {
+      "id": "iph9x4wy2gm7xdu45j",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "oeme8qe07amckdo9d5",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "linked schemas",
+            "cs": "Strojově čitelné schéma souboru ke stažení"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení",
+          "description": {
+            "en": "An established standard to which the distribution conforms.",
+            "cs": "Ustanovené schéma, jímž se popisovaná distribuce řídí."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení",
+          "iri": "Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce-SouborKeStažení.strojověČitelnéSchémaSouboruKeStažení"
+          ],
+          "concept": "xmdv5sqg1am7xdqslu",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "jog0s12jtkm7xdud9y": {
+      "id": "jog0s12jtkm7xdud9y",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "4fgtsj3dgsjmckdnwbc",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "access service",
+            "es": "servicio de acceso de datos",
+            "it": "servizio di accesso ai dati",
+            "cs": "přístupová služba",
+            "da": "dataadgangstjeneste"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba",
+          "description": {
+            "en": "A site or end-point that gives access to the distribution of the dataset.",
+            "cs": "Umístění či přístupový bod zpřístupňující distribuci datové sady.",
+            "es": "Un sitio o end-point que da acceso a la distribución de un conjunto de datos.",
+            "it": "Un sito o end-point che dà accesso alla distribuzione del set di dati.",
+            "da": "Et websted eller endpoint der giver adgang til en repræsentation af datasættet."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba",
+          "iri": "Distribuce-DatováSlužba.přístupováSlužba",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce-DatováSlužba.přístupováSlužba"
+          ],
+          "concept": "rfatetrz4hdm7xdpcsw",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "vv09m8eabzm7xdus52": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "73y1fhyeajim7xdpukp"
+        },
+        {
+          "name": {
+            "cs": "datum začátku",
+            "en": "start date",
+            "it": "data di inizio",
+            "da": "startdato"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku",
+          "description": {
+            "en": "The start of the period."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku",
+          "iri": "ČasovýInterval.datumZačátku",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumZačátku"
+          ],
+          "concept": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      ],
+      "id": "vv09m8eabzm7xdus52",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "vjnyqzdvedbm7xduxml": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "73y1fhyeajim7xdpukp"
+        },
+        {
+          "name": {
+            "cs": "datum konce",
+            "en": "end date",
+            "it": "data di fine",
+            "es": "fecha final",
+            "da": "slutdato"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce",
+          "description": {
+            "es": "El fin del período.",
+            "cs": "Konec doby trvání.",
+            "en": "The end of the period.",
+            "it": "La fine del periodo.",
+            "da": "Slutningen på perioden."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce",
+          "iri": "ČasovýInterval.datumKonce",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#ČasovýInterval.datumKonce"
+          ],
+          "concept": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      ],
+      "id": "vjnyqzdvedbm7xduxml",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "tjia4f1n2tom7xdv48x": {
+      "id": "tjia4f1n2tom7xdv48x",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "i16b2q5y6g9m87efzyf",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "has email",
+            "cs": "email"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email",
+          "description": {
+            "en": "To specify the electronic mail address for communication with the object"
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email",
+          "iri": "KontaktníBod.email",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.email"
+          ],
+          "concept": "54zigbpv5dpm7yl98ce",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "fibv6k08v37m7xdv927": {
+      "id": "fibv6k08v37m7xdv927",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "i16b2q5y6g9m87efzyf",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "formatted name",
+            "cs": "jméno"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno",
+          "description": {
+            "en": "The formatted text corresponding to the name of the object"
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno",
+          "iri": "KontaktníBod.jméno",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#KontaktníBod.jméno"
+          ],
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "languageStringRequiredLanguages": [
+            "cs"
+          ],
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "qz46qp7tuncm7xdvetj": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "djstwrb2xmdm7xdpjib"
+        },
+        {
+          "name": {
+            "fr": "URL d'accès",
+            "es": "URL de acceso",
+            "el": "URL πρόσβασης",
+            "en": "access URL",
+            "it": "indirizzo di accesso",
+            "cs": "přístupové URL",
+            "ar": "رابط وصول",
+            "ja": "アクセスURL",
+            "da": "adgangsadresse"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl",
+          "description": {
+            "en": "A URL that gives access to a Distribution of the Dataset.",
+            "fr": "Ceci peut être tout type d'URL qui donne accès à une distribution du jeu de données. Par exemple, un lien à une page HTML contenant un lien au jeu de données, un Flux RSS, un point d'accès SPARQL. Utilisez le lorsque votre catalogue ne contient pas d'information sur quoi il est ou quand ce n'est pas téléchargeable.",
+            "es": "Puede ser cualquier tipo de URL que de acceso a una distribución del conjunto de datos, e.g., página de destino, descarga, URL feed, punto de acceso SPARQL. Esta propriedad se debe usar cuando su catálogo de datos no tiene información sobre donde está o cuando no se puede descargar.",
+            "cs": "URL zdroje, přes které je přístupná distribuce datové sady. Příkladem může být vstupní stránka, RSS kanál či SPARQL endpoint. Použijte ve všech případech kromě URL souboru ke stažení, pro které je lepší použít dcat:downloadURL.",
+            "it": "Un URL di una risorsa che consente di accedere a una distribuzione del set di dati. Per esempio, pagina di destinazione, feed, endpoint SPARQL. Da utilizzare per tutti i casi, tranne  quando  si tratta di un semplice link per il download nel qual caso è preferito downloadURL.",
+            "el": "Μπορεί να είναι οποιουδήποτε είδους URL που δίνει πρόσβαση στη διανομή ενός συνόλου δεδομένων. Π.χ. ιστοσελίδα αρχικής πρόσβασης, μεταφόρτωση, feed URL, σημείο διάθεσης SPARQL. Να χρησιμοποιείται όταν ο κατάλογος δεν περιέχει πληροφορίες εαν πρόκειται ή όχι για μεταφορτώσιμο αρχείο.",
+            "ar": "أي رابط يتيح الوصول إلى البيانات. إذا كان الرابط هو ربط مباشر لملف يمكن تحميله استخدم الخاصية downloadURL",
+            "ja": "データセットの配信にアクセス権を与えるランディング・ページ、フィード、SPARQLエンドポイント、その他の種類の資源。",
+            "da": "En URL for en ressource som giver adgang til en repræsentation af datsættet. Fx destinationsside, feed, SPARQL-endpoint. Anvendes i alle sammenhænge undtagen til angivelse af et simpelt download link hvor anvendelse af egenskaben downloadURL foretrækkes."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl",
+          "iri": "Distribuce.přístupovéUrl",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce.přístupovéUrl"
+          ],
+          "concept": "xmdv5sqg1am7xdqslu"
+        }
+      ],
+      "id": "qz46qp7tuncm7xdvetj",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "moeqz9l0qpqm7xdvkl0": {
+      "id": "moeqz9l0qpqm7xdvkl0",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "djstwrb2xmdm7xdpjib",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "applicable legislation",
+            "cs": "příslušný právní předpis"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis",
+          "description": {
+            "en": "The legislation that mandates the creation or management of the Distribution.",
+            "cs": "Indikace příslušného právního předpisu předepisujícího vznik distribuce."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis",
+          "iri": "Distribuce.příslušnýPrávníPředpis",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {
+            "cs": "Pro účely identifikace datové sady zpřístupněné datovým rozhraním dle vyhlášky č. 360/2023 Sb. musí obsahovat hodnoty: https://www.e-sbirka.cz/eli/cz/sb/2000/365/2024-01-20 https://www.e-sbirka.cz/sb/2023/360/2024-07-01"
+          },
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce.příslušnýPrávníPředpis"
+          ],
+          "concept": "7etnubafpvwm7xdqo72",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "qxlnqxd3yf9m7xdvpao": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "djstwrb2xmdm7xdpjib"
+        },
+        {
+          "name": {
+            "cs": "Specifikace podmínek užití",
+            "en": "Terms of use specification"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití",
+          "description": {},
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití",
+          "iri": "Distribuce.specifikacePodmínekUžití",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce.specifikacePodmínekUžití"
+          ],
+          "concept": "tolz24h39om7xdqxzd"
+        }
+      ],
+      "id": "qxlnqxd3yf9m7xdvpao",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "88laiu8pqwhm7xdvt7u": {
+      "id": "88laiu8pqwhm7xdvt7u",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "djstwrb2xmdm7xdpjib",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "title",
+            "cs": "název"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.název",
+          "description": {
+            "en": "A name given to the distribution."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.název",
+          "iri": "Distribuce.název",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Distribuce.název",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Distribuce.název"
+          ],
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "4bd9615pbt5m7xdw73v": {
+      "id": "4bd9615pbt5m7xdw73v",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "rfatetrz4hdm7xdpcsw",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "applicable legislation",
+            "cs": "příslušný právní předpis"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis",
+          "description": {
+            "en": "The legislation that mandates the creation or management of the Data Service.",
+            "cs": "Indikace příslušného právního předpisu předepisujícího vznik datové služby."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis",
+          "iri": "DatováSlužba.příslušnýPrávníPředpis",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {
+            "cs": "Pro účely identifikace datové sady zpřístupněné datovým rozhraním dle vyhlášky č. 360/2023 Sb. musí obsahovat hodnoty: https://www.e-sbirka.cz/eli/cz/sb/2000/365/2024-01-20 https://www.e-sbirka.cz/sb/2023/360/2024-07-01"
+          },
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.příslušnýPrávníPředpis"
+          ],
+          "concept": "7etnubafpvwm7xdqo72",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "nl5im307nam7xdwbr7": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "rfatetrz4hdm7xdpcsw"
+        },
+        {
+          "name": {
+            "es": "end-point del servicio",
+            "it": "end-point del servizio",
+            "cs": "přístupový bod služby",
+            "en": "endpoint URL",
+            "da": "tjenesteendpoint"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby",
+          "description": {
+            "cs": "Kořenové umístění nebo hlavní přístupový bod služby (IRI přístupné přes Web).",
+            "it": "La locazione principale o l'endpoint primario del servizio (un IRI risolvibile via web).",
+            "es": "La posición raíz o end-point principal del servicio (una IRI web).",
+            "en": "The root location or primary endpoint of the service (an IRI).",
+            "da": "Rodplaceringen eller det primære endpoint for en tjeneste (en web-resolverbar IRI)."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby",
+          "iri": "DatováSlužba.přístupovýBodSlužby",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.přístupovýBodSlužby"
+          ],
+          "concept": "xmdv5sqg1am7xdqslu"
+        }
+      ],
+      "id": "nl5im307nam7xdwbr7",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "0lkod53lt9km7xdwgoh": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "rfatetrz4hdm7xdpcsw"
+        },
+        {
+          "name": {
+            "es": "descripción del end-point del servicio",
+            "en": "endpoint description",
+            "it": "descrizione dell'endpoint del servizio",
+            "cs": "popis přístupového bodu služby",
+            "da": "endpointbeskrivelse"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby",
+          "description": {
+            "en": "A description of the services available via the end-points, including their operations, parameters etc.",
+            "cs": "Popis přístupového bodu služby včetně operací, parametrů apod.",
+            "es": "Una descripción del end-point del servicio, incluyendo sus operaciones, parámetros, etc.",
+            "it": "Una descrizione dell'endpoint del servizio, incluse le sue operazioni, parametri, ecc.",
+            "da": "En beskrivelse af det pågældende tjenesteendpoint, inklusiv dets operationer, parametre etc."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby",
+          "iri": "DatováSlužba.popisPřístupovéhoBoduSlužby",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.popisPřístupovéhoBoduSlužby"
+          ],
+          "concept": "xmdv5sqg1am7xdqslu"
+        }
+      ],
+      "id": "0lkod53lt9km7xdwgoh",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "4l7iccl2wam7xdwndp": {
+      "id": "4l7iccl2wam7xdwndp",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "rfatetrz4hdm7xdpcsw",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "conforms to",
+            "cs": "specifikace"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace",
+          "description": {
+            "en": "An established (technical) standard to which the Data Service conforms.",
+            "cs": "Specifikaci, jíž se datová služba řídí."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace",
+          "iri": "DatováSlužba.specifikace",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {
+            "cs": "Takovou specifikací je například SPARQL. Seznam možných hodnot lze nalézt například v seznamu udržovaném Open Source Geospatial Foundation."
+          },
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.specifikace"
+          ],
+          "concept": "6lmyixr5t8cm7xdqw2v",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "6qkwwzp7obm7xdws89": {
+      "id": "6qkwwzp7obm7xdws89",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "rfatetrz4hdm7xdpcsw"
+        },
+        {
+          "name": {
+            "en": "title",
+            "cs": "název"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název",
+          "description": {
+            "en": "A name given to the Data Service.",
+            "cs": "Název datové služby."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název",
+          "iri": "DatováSlužba.název",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.název"
+          ],
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text"
+        }
+      ]
+    },
+    "1kli1hfzvcim7xdx29e": {
+      "id": "1kli1hfzvcim7xdx29e",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "rfatetrz4hdm7xdpcsw"
+        },
+        {
+          "name": {
+            "en": "documentation",
+            "cs": "dokumentace"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace",
+          "description": {
+            "en": "A page or document about this Data Service",
+            "cs": "Dokumentace dále popisující datovou službu."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace",
+          "iri": "DatováSlužba.dokumentace",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSlužba.dokumentace"
+          ],
+          "concept": "a9q572mr9e7m7yofh1w"
+        }
+      ]
+    },
+    "tbh88f5hu3m7xdxkup": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "2k7wafeu31gm7xdp9kd"
+        },
+        {
+          "name": {
+            "en": "publisher",
+            "cs": "poskytovatel"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel",
+          "description": {
+            "en": "An entity (organisation) responsible for making the Catalogue available.",
+            "cs": "Poskytovatel datového katalogu."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel",
+          "iri": "Katalog.poskytovatel",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Katalog.poskytovatel"
+          ],
+          "concept": "h6cudvufeim7xdqqkp"
+        }
+      ],
+      "id": "tbh88f5hu3m7xdxkup",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "k09epdgsawrm7xdxr4r": {
+      "id": "k09epdgsawrm7xdxr4r",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "2k7wafeu31gm7xdp9kd"
+        },
+        {
+          "name": {
+            "es": "Punto de contacto",
+            "en": "contact point",
+            "cs": "kontaktní bod",
+            "fr": "point de contact",
+            "it": "punto di contatto",
+            "el": "σημείο επικοινωνίας",
+            "ar": "عنوان اتصال",
+            "ja": "窓口",
+            "da": "kontaktpunkt"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod",
+          "description": {
+            "es": "Información relevante de contacto para el recurso catalogado. Se recomienda el uso de vCard.",
+            "it": "Informazioni di contatto rilevanti per la risorsa catalogata. Si raccomanda l'uso di vCard.",
+            "en": "Relevant contact information for the catalogued resource. Use of vCard is recommended.",
+            "cs": "Tato vlastnost obsahuje kontaktní informace, které mohou být využity pro zasílání připomínek ke katalogu.",
+            "fr": "Relie un jeu de données à une information de contact utile en utilisant VCard.",
+            "el": "Συνδέει ένα σύνολο δεδομένων με ένα σχετικό σημείο επικοινωνίας, μέσω VCard.",
+            "ar": "تربط قائمة البيانات بعنوان اتصال موصف  باستخدام VCard",
+            "ja": "データセットを、VCardを用いて提供されている適切な連絡先情報にリンクします。",
+            "da": "Relevante kontaktoplysninger for den katalogiserede ressource. Anvendelse af vCard anbefales."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod",
+          "iri": "Katalog.kontaktníBod",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Katalog.kontaktníBod"
+          ],
+          "concept": "i16b2q5y6g9m87efzyf"
+        }
+      ]
+    },
+    "dljka6pvjntm7xdxwxb": {
+      "id": "dljka6pvjntm7xdxwxb",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "2k7wafeu31gm7xdp9kd"
+        },
+        {
+          "name": {
+            "en": "homepage",
+            "cs": "domovská stránka"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka",
+          "description": {
+            "en": "A web page that acts as the main page for the Catalogue.",
+            "cs": "Tato vlastnost odkazuje na domovskou stránku lokálního katalogu, kam mohou chodit uživatelé."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka",
+          "iri": "Katalog.domovskáStránka",
+          "cardinality": null,
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Katalog.domovskáStránka"
+          ],
+          "concept": "a9q572mr9e7m7yofh1w"
+        }
+      ]
+    },
+    "kz3jpri852hm7xdy3id": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "2k7wafeu31gm7xdp9kd"
+        },
+        {
+          "name": {
+            "es": "conjunto de datos",
+            "en": "dataset",
+            "it": "dataset",
+            "cs": "datová sada",
+            "fr": "jeu de données",
+            "el": "σύνολο δεδομένων",
+            "ar": "قائمة بيانات",
+            "ja": "データセット",
+            "da": "datasæt"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada",
+          "description": {
+            "en": "A Dataset that is part of the Catalogue.",
+            "cs": "Kolekce dat, která je katalogizována v katalogu.",
+            "fr": "Relie un catalogue à un jeu de données faisant partie de ce catalogue.",
+            "es": "Un conjunto de datos que se lista en el catálogo.",
+            "it": "Una raccolta di dati che è elencata nel catalogo.",
+            "el": "Συνδέει έναν κατάλογο με ένα σύνολο δεδομένων το οποίο ανήκει στον εν λόγω κατάλογο.",
+            "ar": "تربط الفهرس بقائمة بيانات ضمنه",
+            "ja": "カタログの一部であるデータセット。",
+            "da": "En samling af data som er opført i kataloget."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada",
+          "iri": "Katalog.datováSada",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Katalog.datováSada"
+          ],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        }
+      ],
+      "id": "kz3jpri852hm7xdy3id",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "lcijh8jykwcm7xdy8b4": {
+      "id": "lcijh8jykwcm7xdy8b4",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "2k7wafeu31gm7xdp9kd"
+        },
+        {
+          "name": {
+            "en": "description",
+            "cs": "popis"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.popis",
+          "description": {
+            "en": "A free-text account of the Catalogue.",
+            "cs": "Tato vlastnost obsahuje volný text s popisem datového katalogu."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.popis",
+          "iri": "Katalog.popis",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.popis",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Katalog.popis"
+          ],
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "languageStringRequiredLanguages": [
+            "cs"
+          ]
+        }
+      ]
+    },
+    "98q2szno0mkm7xdybsv": {
+      "id": "98q2szno0mkm7xdybsv",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "2k7wafeu31gm7xdp9kd"
+        },
+        {
+          "name": {
+            "en": "title",
+            "cs": "název"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.název",
+          "description": {
+            "en": "A name given to the Catalogue.",
+            "cs": "Tato vlastnost obsahuje název datového katalogu."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.název",
+          "iri": "Katalog.název",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Katalog.název",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#Katalog.název"
+          ],
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text",
+          "languageStringRequiredLanguages": [
+            "cs"
+          ]
+        }
+      ]
+    },
+    "aruiwuwt1x9m7xe0s93": {
+      "id": "aruiwuwt1x9m7xe0s93",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "en": "title",
+            "cs": "název"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.název",
+          "description": {
+            "en": "Název datové sady"
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.název",
+          "iri": "DatováSada.název",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.název",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.název"
+          ],
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text"
+        }
+      ]
+    },
+    "kam9hp4v0em7xe0zdp": {
+      "id": "kam9hp4v0em7xe0zdp",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "en": "description",
+            "cs": "popis"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis",
+          "description": {
+            "en": "A free-text account of the Dataset.",
+            "cs": "Volný text s popisem datové sady"
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis",
+          "iri": "DatováSada.popis",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.popis"
+          ],
+          "concept": "https://ofn.gov.cz/zdroj/základní-datové-typy/2020-07-01/text"
+        }
+      ]
+    },
+    "jja52o2dm3m7xe1iky": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "en": "keyword",
+            "cs": "klíčové slovo",
+            "fr": "mot-clés ",
+            "es": "palabra clave",
+            "it": "parola chiave",
+            "el": "λέξη-κλειδί",
+            "ar": "كلمة  مفتاحية ",
+            "ja": "キーワード/タグ",
+            "da": "nøgleord"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo",
+          "description": {
+            "en": "A keyword or tag describing a resource.",
+            "cs": "Klíčové slovo nebo značka popisující zdroj.",
+            "fr": "Un mot-clé ou étiquette décrivant une ressource.",
+            "es": "Una palabra clave o etiqueta que describe un recurso.",
+            "it": "Una parola chiave o un'etichetta per descrivere la risorsa.",
+            "el": "Μία λέξη-κλειδί ή μία ετικέτα που περιγράφει το σύνολο δεδομένων.",
+            "ar": "كلمة  مفتاحيه توصف قائمة البيانات",
+            "ja": "データセットを記述しているキーワードまたはタグ。",
+            "da": "Et nøgleord eller tag til beskrivelse af en ressource."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo",
+          "iri": "DatováSada.klíčovéSlovo",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klíčovéSlovo"
+          ],
+          "concept": "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+        }
+      ],
+      "id": "jja52o2dm3m7xe1iky",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "uw4phv10muam7xe21gk": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "en": "in series",
+            "es": "en serie",
+            "it": "in serie",
+            "cs": "je součástí"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí",
+          "description": {
+            "en": "A dataset series of which the dataset is part.",
+            "es": "Una serie de conjuntos de datos del cuál un conjunto de datos es parte.",
+            "it": "Una serie di dataset di cui questo dataset fa parte."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí",
+          "iri": "DatováSada.jeSoučástí",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.jeSoučástí"
+          ],
+          "concept": "j9d4jypnb7jm7xdpeqw"
+        }
+      ],
+      "id": "uw4phv10muam7xe21gk",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "0lb2zoohzimm7xe27kb": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "en": "publisher",
+            "cs": "poskytovatel"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel",
+          "description": {
+            "en": "An entity (organisation) responsible for making the Dataset available.",
+            "cs": "Poskytovatel datové sady"
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel",
+          "iri": "DatováSada.poskytovatel",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.poskytovatel"
+          ],
+          "concept": "h6cudvufeim7xdqqkp"
+        }
+      ],
+      "id": "0lb2zoohzimm7xe27kb",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "7co6dd363q3m7xe2ez0": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "es": "tema",
+            "it": "tema",
+            "en": "theme",
+            "fr": "thème",
+            "cs": "téma",
+            "el": "Θέμα",
+            "ar": "التصنيف",
+            "ja": "テーマ/カテゴリー",
+            "da": "emne"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma",
+          "description": {
+            "en": "A category of the Dataset.",
+            "cs": "Téma datové sady. Datová sada může být popsána více tématy.",
+            "it": "La categoria principale della risorsa. Una risorsa può avere più temi.",
+            "es": "La categoría principal del recurso. Un recurso puede tener varios temas.",
+            "fr": "La catégorie principale de la ressource. Une ressource peut avoir plusieurs thèmes.",
+            "el": "Η κύρια κατηγορία του συνόλου δεδομένων. Ένα σύνολο δεδομένων δύναται να έχει πολλαπλά θέματα.",
+            "ar": "التصنيف الرئيسي لقائمة البيانات. قائمة البيانات يمكن أن تملك أكثر من تصنيف رئيسي واحد.",
+            "ja": "データセットの主要カテゴリー。データセットは複数のテーマを持つことができます。",
+            "da": "Et centralt emne for ressourcen. En ressource kan have flere centrale emner."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma",
+          "iri": "DatováSada.téma",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.téma"
+          ],
+          "concept": "m1p5jioy8lgm7xdqg2g"
+        }
+      ],
+      "id": "7co6dd363q3m7xe2ez0",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "fuqpunkj6jjm7xe2mrl": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "en": "frequency",
+            "cs": "periodicita aktualizace"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace",
+          "description": {
+            "en": "Frekvence, se kterou je datová sada aktualizována."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace",
+          "iri": "DatováSada.periodicitaAktualizace",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.periodicitaAktualizace"
+          ],
+          "concept": "fc4k3ler8am7xdq8l6"
+        }
+      ],
+      "id": "fuqpunkj6jjm7xe2mrl",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "nrg8nr4b47gm7xe3ctd": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "en": "temporal coverage",
+            "cs": "časové pokrytí"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí",
+          "description": {
+            "en": "The temporal period that the dataset covers.",
+            "cs": "Časový úsek pokrytý datovou sadou"
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí",
+          "iri": "DatováSada.časovéPokrytí",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.časovéPokrytí"
+          ],
+          "concept": "73y1fhyeajim7xdpukp"
+        }
+      ],
+      "id": "nrg8nr4b47gm7xe3ctd",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "uaanb7hdmmm7xe3j6o": {
+      "id": "uaanb7hdmmm7xe3j6o",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "es": "Punto de contacto",
+            "en": "contact point",
+            "cs": "kontaktní bod",
+            "fr": "point de contact",
+            "it": "punto di contatto",
+            "el": "σημείο επικοινωνίας",
+            "ar": "عنوان اتصال",
+            "ja": "窓口",
+            "da": "kontaktpunkt"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod",
+          "description": {
+            "es": "Información relevante de contacto para el recurso catalogado. Se recomienda el uso de vCard.",
+            "it": "Informazioni di contatto rilevanti per la risorsa catalogata. Si raccomanda l'uso di vCard.",
+            "en": "Contact information that can be used for sending comments about the Dataset.",
+            "cs": "Kontaktní informace, které mohou být využity pro zasílání připomínek k datové sadě.",
+            "fr": "Relie un jeu de données à une information de contact utile en utilisant VCard.",
+            "el": "Συνδέει ένα σύνολο δεδομένων με ένα σχετικό σημείο επικοινωνίας, μέσω VCard.",
+            "ar": "تربط قائمة البيانات بعنوان اتصال موصف  باستخدام VCard",
+            "ja": "データセットを、VCardを用いて提供されている適切な連絡先情報にリンクします。",
+            "da": "Relevante kontaktoplysninger for den katalogiserede ressource. Anvendelse af vCard anbefales."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod",
+          "iri": "DatováSada.kontaktníBod",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.kontaktníBod"
+          ],
+          "concept": "i16b2q5y6g9m87efzyf"
+        }
+      ]
+    },
+    "veoj86rdnxm7xe3op2": {
+      "id": "veoj86rdnxm7xe3op2",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "en": "documentation",
+            "cs": "dokumentace"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace",
+          "description": {
+            "en": "A page or document about this Dataset."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace",
+          "iri": "DatováSada.dokumentace",
+          "cardinality": [
+            0,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.dokumentace"
+          ],
+          "concept": "a9q572mr9e7m7yofh1w"
+        }
+      ]
+    },
+    "49ctob5alw8m7xe3trz": {
+      "id": "49ctob5alw8m7xe3trz",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "en": "conforms to",
+            "cs": "specifikace"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace",
+          "description": {
+            "en": "An implementing rule or other specification.",
+            "cs": "Specifikace, jíž se datová sada řídí."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace",
+          "iri": "DatováSada.specifikace",
+          "cardinality": null,
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.specifikace"
+          ],
+          "concept": "6lmyixr5t8cm7xdqw2v"
+        }
+      ]
+    },
+    "qu14bgxoafim7xe3zpc": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "es": "tema",
+            "it": "tema",
+            "en": "theme",
+            "fr": "thème",
+            "cs": "klasifikace dle EuroVoc",
+            "el": "Θέμα",
+            "ar": "التصنيف",
+            "ja": "テーマ/カテゴリー",
+            "da": "emne"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc",
+          "description": {
+            "en": "A category of the Dataset.",
+            "cs": "Kategorie či téma datové sady dle EuroVoc.",
+            "it": "La categoria principale della risorsa. Una risorsa può avere più temi.",
+            "es": "La categoría principal del recurso. Un recurso puede tener varios temas.",
+            "fr": "La catégorie principale de la ressource. Une ressource peut avoir plusieurs thèmes.",
+            "el": "Η κύρια κατηγορία του συνόλου δεδομένων. Ένα σύνολο δεδομένων δύναται να έχει πολλαπλά θέματα.",
+            "ar": "التصنيف الرئيسي لقائمة البيانات. قائمة البيانات يمكن أن تملك أكثر من تصنيف رئيسي واحد.",
+            "ja": "データセットの主要カテゴリー。データセットは複数のテーマを持つことができます。",
+            "da": "Et centralt emne for ressourcen. En ressource kan have flere centrale emner."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc",
+          "iri": "DatováSada.klasifikaceDleEurovoc",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.klasifikaceDleEurovoc"
+          ],
+          "concept": "1apgucxrfgxm7xdqdn3"
+        }
+      ],
+      "id": "qu14bgxoafim7xe3zpc",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "3pwrjufegvlm7xe44xe": {
+      "id": "3pwrjufegvlm7xe44xe",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "en": "applicable legislation",
+            "cs": "příslušný právní předpis"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis",
+          "description": {
+            "en": "The legislation that mandates the creation or management of the Dataset.",
+            "cs": "Indikace příslušného právního předpisu předepisujícího vznik datové sady."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis",
+          "iri": "DatováSada.příslušnýPrávníPředpis",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {
+            "cs": "Pro účely identifikace datové sady zpřístupněné datovým rozhraním dle vyhlášky č. 360/2023 Sb. musí obsahovat hodnoty: https://www.e-sbirka.cz/eli/cz/sb/2000/365/2024-01-20 a https://www.e-sbirka.cz/sb/2023/360/2024-07-01"
+          },
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.příslušnýPrávníPředpis"
+          ],
+          "concept": "7etnubafpvwm7xdqo72",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "6lqwon1f80bm7xe4boy": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "cs": "distribuce",
+            "es": "distribución",
+            "en": "dataset distribution",
+            "fr": "distribution",
+            "it": "distribuzione",
+            "da": "distribution",
+            "el": "διανομή",
+            "ar": "توزيع",
+            "ja": "データセット配信"
+          },
+          "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce",
+          "description": {
+            "en": "An available Distribution for the Dataset.",
+            "fr": "Connecte un jeu de données à des distributions disponibles.",
+            "cs": "Dostupná distribuce datové sady.",
+            "es": "Una distribución disponible del conjunto de datos.",
+            "it": "Una distribuzione disponibile per il set di dati.",
+            "el": "Συνδέει ένα σύνολο δεδομένων με μία από τις διαθέσιμες διανομές του.",
+            "ar": "تربط قائمة البيانات بطريقة أو بشكل يسمح  الوصول الى البيانات",
+            "ja": "データセットを、その利用可能な配信に接続します。",
+            "da": "En tilgængelig repræsentation af datasættet."
+          },
+          "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce",
+          "iri": "DatováSada.distribuce",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce",
+          "profiling": [
+            "https://ofn.gov.cz/dcat-ap-cz#DatováSada.distribuce"
+          ],
+          "concept": "djstwrb2xmdm7xdpjib"
+        }
+      ],
+      "id": "6lqwon1f80bm7xe4boy",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "d9r04ar8r58m7xecuvl": {
+      "id": "d9r04ar8r58m7xecuvl",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "cs": "Pojem reprezentuje typy subjektu a objektu práva, vlastnost nebo vztah."
+      },
+      "descriptionFromProfiled": "https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojem",
+      "name": {
+        "cs": "Pojem"
+      },
+      "nameFromProfiled": "https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojem",
+      "iri": "Pojem",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojem"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "example": [
+        "https://slovník.gov.cz/legislativní/sbírka/361/2000/pojem/řidič"
+      ],
+      "regex": "^https://.*$"
+    },
+    "sto9ksncv8jm7xeczsj": {
+      "id": "sto9ksncv8jm7xeczsj",
+      "type": [
+        "class-profile"
+      ],
+      "description": {},
+      "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údaje",
+      "name": {
+        "cs": "Sdílení údaje"
+      },
+      "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údaje",
+      "iri": "SdíleníÚdaje",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údaje"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ]
+    },
+    "br9bchepgmqm7xed2dj": {
+      "id": "br9bchepgmqm7xed2dj",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "cs": "Orgán veřejné správy strukturuje data vedená v informačním systému podle způsobu jejich sdílení na údaje:  a) veřejně přístupné: údaje publikované veřejně ve formě otevřených dat či jakkoliv jinak b) poskytované na žádost: údaje poskytované na žádost subjektu práva nebo na základě zákona o svobodném přístupu k informacím c) zpřístupňované pro výkon agendy: údaje sdílené jiným agendám, které mají oprávněný zájem je využívat pro výkon své působnosti d) nesdílené: údaje, které nejsou sdílené žádným z předchozích způsobů"
+      },
+      "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údaje",
+      "name": {
+        "cs": "Způsob sdílení údaje"
+      },
+      "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údaje",
+      "iri": "ZpůsobSdíleníÚdaje",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údaje"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "regex": "^https://data\\.dia\\.gov\\.cz/zdroj/číselníky/způsoby-sdílení-údajů/položky/[^/]+$",
+      "example": [
+        "https://data.dia.gov.cz/zdroj/číselníky/způsoby-sdílení-údajů/položky/veřejně-přístupné",
+        "https://data.dia.gov.cz/zdroj/číselníky/způsoby-sdílení-údajů/položky/poskytované-na-žádost",
+        "https://data.dia.gov.cz/zdroj/číselníky/způsoby-sdílení-údajů/položky/zpřístupňované-pro-výkon-agendy",
+        "https://data.dia.gov.cz/zdroj/číselníky/způsoby-sdílení-údajů/položky/nesdílené"
+      ]
+    },
+    "2y8vsaemeecm7xed4vf": {
+      "id": "2y8vsaemeecm7xed4vf",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "cs": "Orgán veřejné správy strukturuje data vedená v informačním systému na údaje následujících kategorií: a) základních registrů: údaje čerpané pro výkon agendy ze základních registrů b) jiných agend: údaje získávané pro výkon agendy od jiných úřadů c) vlastní: údaje vznikající při výkonu agendy, které mají evidenční charakter, tedy vztahují se k objektu nebo subjektu práva za účelem výkonu veřejné správy d) provozní: údaje vznikající při výkonu agendy, které nemají evidenční charakter a nevznikají za účelem výkonu veřejné správy"
+      },
+      "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údaje",
+      "name": {
+        "cs": "Způsob získání údaje"
+      },
+      "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údaje",
+      "iri": "ZpůsobZískáníÚdaje",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údaje"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "regex": "^https://data\\.dia\\.gov\\.cz/zdroj/číselníky/způsoby-získání-údajů/položky/[^/]+$",
+      "example": [
+        "https://data.dia.gov.cz/zdroj/číselníky/způsoby-získání-údajů/položky/základních-registrů",
+        "https://data.dia.gov.cz/zdroj/číselníky/způsoby-získání-údajů/položky/jiných-agend",
+        "https://data.dia.gov.cz/zdroj/číselníky/způsoby-získání-údajů/položky/vlastní",
+        "https://data.dia.gov.cz/zdroj/číselníky/způsoby-získání-údajů/položky/provozní"
+      ]
+    },
+    "te27euyub6hm7xed7ev": {
+      "id": "te27euyub6hm7xed7ev",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "cs": "Orgán veřejné správy strukturuje data vedená v informačním systému podle jejich obsahu na údaje:  a) identifikační: údaje, které, které samostatně nebo ve skupině identifikují konkrétní subjekt práva  b) evidenční: údaje, které neidentifikují konkrétní subjekt práva, ale váží se k subjektu nebo objektu práva v rámci agendy a evidence, která se v ní vede  c) statistické: údaje, které seskupují a formou anonymizace či pseudonymizace zamezují vazbě konkrétní subjekt práva"
+      },
+      "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údaje",
+      "name": {
+        "cs": "Typ obsahu údaje"
+      },
+      "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údaje",
+      "iri": "TypObsahuÚdaje",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údaje"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "regex": "^https://data\\.dia\\.gov\\.cz/zdroj/číselníky/typy-obsahu-údajů/položky/[^/]+$",
+      "example": [
+        "https://data.dia.gov.cz/zdroj/číselníky/typy-obsahu-údajů/položky/identifikační",
+        "https://data.dia.gov.cz/zdroj/číselníky/typy-obsahu-údajů/položky/evidenční",
+        "https://data.dia.gov.cz/zdroj/číselníky/typy-obsahu-údajů/položky/statistické"
+      ]
+    },
+    "d91gp9mzp5m7xedn1n": {
+      "id": "d91gp9mzp5m7xedn1n",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "y1zfn4ysx6fm7xdp67s"
+        },
+        {
+          "name": {
+            "cs": "týká se pojmu"
+          },
+          "nameFromProfiled": "https://slovník.gov.cz/veřejný-sektor/pojem/týká-se-pojmu",
+          "description": {},
+          "descriptionFromProfiled": "https://slovník.gov.cz/veřejný-sektor/pojem/týká-se-pojmu",
+          "iri": "DatováSada.týkáSePojmu",
+          "cardinality": null,
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://slovník.gov.cz/veřejný-sektor/pojem/týká-se-pojmu"
+          ],
+          "concept": "d9r04ar8r58m7xecuvl"
+        }
+      ]
+    },
+    "hykk71m5hkdm7xefe0a": {
+      "id": "hykk71m5hkdm7xefe0a",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "cs": "Informačním systémem veřejné správy funkční celek nebo jeho část zabezpečující cílevědomou a systematickou informační činnost pro účely výkonu veřejné správy nebo plnění jiných funkcí státu anebo dalších veřejnoprávních korporací. Každý informační systém veřejné správy zahrnuje data, která jsou uspořádána tak, aby bylo možné jejich zpracování a zpřístupnění, provozní údaje a dále technické a programové prostředky, případně jiné nástroje umožňující výkon informačních činností"
+      },
+      "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy",
+      "name": {
+        "cs": "Informační systém veřejné správy"
+      },
+      "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy",
+      "iri": "InformačníSystémVeřejnéSprávy",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "example": [
+        "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/isvs/3"
+      ],
+      "regex": "^https://rpp-opendata\\.egon\\.gov\\.cz/odrpp/zdroj/isvs/[^/]+$"
+    },
+    "phjz1zpm3fkm7xefoj8": {
+      "id": "phjz1zpm3fkm7xefoj8",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "hykk71m5hkdm7xefe0a",
+          "externalDocumentationUrl": null,
+          "tags": []
+        },
+        {
+          "name": {
+            "cs": "zahrnuje"
+          },
+          "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zahrnuje",
+          "description": {},
+          "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zahrnuje",
+          "iri": "InformačníSystémVeřejnéSprávy.zahrnuje",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/zahrnuje"
+          ],
+          "concept": "y1zfn4ysx6fm7xdp67s",
+          "externalDocumentationUrl": null,
+          "tags": []
+        }
+      ]
+    },
+    "me3smiynutem7xejnrm": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "sto9ksncv8jm7xeczsj"
+        },
+        {
+          "name": {
+            "cs": "je sdílen způsobem"
+          },
+          "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-způsobem",
+          "description": {
+            "cs": "Orgán veřejné správy strukturuje data vedená v informačním systému podle způsobu jejich sdílení na údaje:  a) veřejně přístupné: údaje publikované veřejně ve formě otevřených dat či jakkoliv jinak b) poskytované na žádost: údaje poskytované na žádost subjektu práva nebo na základě zákona o svobodném přístupu k informacím c) zpřístupňované pro výkon agendy: údaje sdílené jiným agendám, které mají oprávněný zájem je využívat pro výkon své působnosti d) nesdílené: údaje, které nejsou sdílené žádným z předchozích způsobů"
+          },
+          "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-způsobem",
+          "iri": "SdíleníÚdaje.jeSdílenZpůsobem",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-způsobem"
+          ],
+          "concept": "br9bchepgmqm7xed2dj"
+        }
+      ],
+      "id": "me3smiynutem7xejnrm",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "0bccwq1h24pom7xek7ct": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "sto9ksncv8jm7xeczsj"
+        },
+        {
+          "name": {
+            "cs": "je sdílen jako"
+          },
+          "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-jako",
+          "description": {},
+          "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-jako",
+          "iri": "SdíleníÚdaje.jeSdílenJako",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-sdílen-jako"
+          ],
+          "concept": "te27euyub6hm7xed7ev"
+        }
+      ],
+      "id": "0bccwq1h24pom7xek7ct",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "3ku6ag5qtm7xekgna": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "sto9ksncv8jm7xeczsj"
+        },
+        {
+          "name": {
+            "cs": "je získán způsobem"
+          },
+          "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-získán-způsobem",
+          "description": {
+            "cs": "Orgán veřejné správy strukturuje data vedená v informačním systému na údaje následujících kategorií: a) základních registrů: údaje čerpané pro výkon agendy ze základních registrů b) jiných agend: údaje získávané pro výkon agendy od jiných úřadů c) vlastní: údaje vznikající při výkonu agendy, které mají evidenční charakter, tedy vztahují se k objektu nebo subjektu práva za účelem výkonu veřejné správy d) provozní: údaje vznikající při výkonu agendy, které nemají evidenční charakter a nevznikají za účelem výkonu veřejné správy"
+          },
+          "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-získán-způsobem",
+          "iri": "SdíleníÚdaje.jeZískánZpůsobem",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/je-získán-způsobem"
+          ],
+          "concept": "2y8vsaemeecm7xed4vf"
+        }
+      ],
+      "id": "3ku6ag5qtm7xekgna",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "m3oftz2tbwm7xel3kn": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "sto9ksncv8jm7xeczsj"
+        },
+        {
+          "name": {
+            "cs": "odpovídající pojem"
+          },
+          "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/odpovídající-pojem",
+          "description": {},
+          "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/odpovídající-pojem",
+          "iri": "SdíleníÚdaje.odpovídajícíPojem",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/odpovídající-pojem"
+          ],
+          "concept": "d9r04ar8r58m7xecuvl"
+        }
+      ],
+      "id": "m3oftz2tbwm7xel3kn",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "tw8t5cbun6em7xeljuw": {
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "djstwrb2xmdm7xdpjib"
+        },
+        {
+          "name": {
+            "cs": "zprostředkovává sdílení"
+          },
+          "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/zprostředkovává-sdílení",
+          "description": {},
+          "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/zprostředkovává-sdílení",
+          "iri": "Distribuce.zprostředkováváSdílení",
+          "cardinality": [
+            0,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/zprostředkovává-sdílení"
+          ],
+          "concept": "sto9ksncv8jm7xeczsj"
+        }
+      ],
+      "id": "tw8t5cbun6em7xeljuw",
+      "type": [
+        "relationship-profile"
+      ]
+    },
+    "kgmvqybqxzm7xemnkg": {
+      "id": "kgmvqybqxzm7xemnkg",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "djstwrb2xmdm7xdpjib"
+        },
+        {
+          "name": {
+            "cs": "má typ obsahu sdíleného rozhraním"
+          },
+          "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-typ-obsahu-sdíleného-rozhraním",
+          "description": {
+            "cs": "Orgán veřejné správy strukturuje data vedená v informačním systému podle způsobu jejich obsahu na údaje: a) veřejně přístupné: údaje publikované veřejně ve formě otevřených dat či jakkoliv jinak b) poskytované na žádost: údaje poskytované na žádost subjektu práva nebo na základě zákona o svobodném přístupu k informacím c) zpřístupňované pro výkon agendy: údaje sdílené jiným agendám, které mají oprávněný zájem je využívat pro výkon své působnosti d) nesdílené: údaje, které nejsou sdílené žádným z předchozích způsobů"
+          },
+          "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-typ-obsahu-sdíleného-rozhraním",
+          "iri": "Distribuce.máTypObsahuSdílenéhoRozhraním",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-typ-obsahu-sdíleného-rozhraním"
+          ],
+          "concept": "te27euyub6hm7xed7ev"
+        }
+      ]
+    },
+    "j4oqnbars4rm7xemypq": {
+      "id": "j4oqnbars4rm7xemypq",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "djstwrb2xmdm7xdpjib"
+        },
+        {
+          "name": {
+            "cs": "má způsob sdílení rozhraním"
+          },
+          "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-sdílení-rozhraním",
+          "description": {
+            "cs": "Orgán veřejné správy strukturuje data vedená v informačním systému podle způsobu jejich sdílení na údaje:  a) veřejně přístupné: údaje publikované veřejně ve formě otevřených dat či jakkoliv jinak b) poskytované na žádost: údaje poskytované na žádost subjektu práva nebo na základě zákona o svobodném přístupu k informacím c) zpřístupňované pro výkon agendy: údaje sdílené jiným agendám, které mají oprávněný zájem je využívat pro výkon své působnosti d) nesdílené: údaje, které nejsou sdílené žádným z předchozích způsobů"
+          },
+          "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-sdílení-rozhraním",
+          "iri": "Distribuce.máZpůsobSdíleníRozhraním",
+          "cardinality": [
+            1,
+            1
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-sdílení-rozhraním"
+          ],
+          "concept": "br9bchepgmqm7xed2dj"
+        }
+      ]
+    },
+    "67z2yrsubx6m7xena7w": {
+      "id": "67z2yrsubx6m7xena7w",
+      "type": [
+        "relationship-profile"
+      ],
+      "ends": [
+        {
+          "name": null,
+          "nameFromProfiled": null,
+          "description": null,
+          "descriptionFromProfiled": null,
+          "iri": null,
+          "cardinality": null,
+          "usageNote": null,
+          "usageNoteFromProfiled": null,
+          "profiling": [],
+          "concept": "djstwrb2xmdm7xdpjib"
+        },
+        {
+          "name": {
+            "cs": "má způsob získání dat sdílených rozhraním"
+          },
+          "nameFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-získání-dat-sdílených-rozhraním",
+          "description": {
+            "cs": "Orgán veřejné správy strukturuje data vedená v informačním systému na údaje následujících kategorií: a) základních registrů: údaje čerpané pro výkon agendy ze základních registrů b) jiných agend: údaje získávané pro výkon agendy od jiných úřadů c) vlastní: údaje vznikající při výkonu agendy, které mají evidenční charakter, tedy vztahují se k objektu nebo subjektu práva za účelem výkonu veřejné správy d) provozní: údaje vznikající při výkonu agendy, které nemají evidenční charakter a nevznikají za účelem výkonu veřejné správy"
+          },
+          "descriptionFromProfiled": "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-získání-dat-sdílených-rozhraním",
+          "iri": "Distribuce.máZpůsobZískáníDatSdílenýchRozhraním",
+          "cardinality": [
+            1,
+            null
+          ],
+          "usageNote": {},
+          "usageNoteFromProfiled": null,
+          "profiling": [
+            "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/má-způsob-získání-dat-sdílených-rozhraním"
+          ],
+          "concept": "2y8vsaemeecm7xed4vf"
+        }
+      ]
+    },
+    "54zigbpv5dpm7yl98ce": {
+      "id": "54zigbpv5dpm7yl98ce",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "Anything described by RDF.",
+        "cs": "Cokoliv, co má URL ve schématu mailto:"
+      },
+      "descriptionFromProfiled": null,
+      "name": {
+        "en": "Resource",
+        "cs": "Emailová adresa"
+      },
+      "nameFromProfiled": null,
+      "iri": "Email",
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Zdroj",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Zdroj"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ]
+    },
+    "a9q572mr9e7m7yofh1w": {
+      "id": "a9q572mr9e7m7yofh1w",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A textual resource intended for human consumption that contains information, e.g. a web page about a Dataset."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Dokument",
+      "name": {
+        "en": "Document",
+        "cs": "Dokument"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Dokument",
+      "iri": "Dokument",
+      "usageNote": {},
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#Dokument",
+      "profiling": [
+        "https://ofn.gov.cz/dcat-ap-cz#Dokument"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ],
+      "regex": "^https://.*$",
+      "example": [
+        "https://www.mdcr.cz/Dokumenty/Verejna-doprava/Jizdni-rady,-kalendare-pro-jizdni-rady,-metodi-(1)/Jizdni-rady-verejne-dopravy"
+      ]
+    },
+    "i16b2q5y6g9m87efzyf": {
+      "id": "i16b2q5y6g9m87efzyf",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "An object representing an organization.  An organization is a single entity, and might represent a business or government, a department or division within a business or government, a club, an association, or the like.\n"
+      },
+      "descriptionFromProfiled": "http://www.w3.org/2006/vcard/ns#Organization",
+      "name": {
+        "en": "Organization",
+        "cs": "Organizace"
+      },
+      "nameFromProfiled": null,
+      "iri": "Organizace",
+      "usageNote": {},
+      "usageNoteFromProfiled": null,
+      "profiling": [
+        "http://www.w3.org/2006/vcard/ns#Organization"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#supportive"
+      ]
+    },
+    "que5w6qik8mckd6ybh": {
+      "id": "que5w6qik8mckd6ybh",
+      "iri": null,
+      "child": "j9d4jypnb7jm7xdpeqw",
+      "parent": "y1zfn4ysx6fm7xdp67s",
+      "type": [
+        "generalization"
+      ]
+    },
+    "4fgtsj3dgsjmckdnwbc": {
+      "id": "4fgtsj3dgsjmckdnwbc",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).",
+        "cs": "Konkrétní reprezentace datové sady datovou službou.",
+        "it": "Rappresenta una forma disponibile e specifica del dataset. Ciascun dataset può essere disponibile in forme differenti, che possono rappresentare formati diversi o diversi punti di accesso per un dataset. Esempi di distribuzioni sono un file CSV scaricabile, una API o un RSS feed.",
+        "fr": "Représente une forme spécifique d'un jeu de données. Caque jeu de données peut être disponible sous différentes formes, celles-ci pouvant représenter différents formats du jeu de données ou différents endpoint. Des exemples de distribution sont des fichirs CSV, des API ou des flux RSS.",
+        "es": "Una representación específica de los datos. Cada conjunto de datos puede estar disponible en formas diferentes, las cuáles pueden variar en distintas formas, incluyendo el idioma, 'media-type' o formato, organización esquemática, resolución temporal y espacial, nivel de detalle o perfiles (que pueden especificar cualquiera o todas las diferencias anteriores).",
+        "el": "Αναπαριστά μία συγκεκριμένη διαθέσιμη μορφή ενός συνόλου δεδομένων. Κάθε σύνολο δεδομενων μπορεί να είναι διαθέσιμο σε διαφορετικές μορφές, οι μορφές αυτές μπορεί να αναπαριστούν διαφορετικές μορφές αρχείων ή διαφορετικά σημεία διάθεσης. Παραδείγματα διανομών συμπεριλαμβάνουν ένα μεταφορτώσιμο αρχείο μορφής CSV, ένα API ή ένα RSS feed.",
+        "ar": "شكل محدد لقائمة البيانات يمكن الوصول إليه. قائمة بيانات ما يمكن أن تكون متاحه باشكال و أنواع متعددة.  ملف يمكن تحميله أو واجهة برمجية يمكن من خلالها الوصول إلى البيانات هي أمثلة على ذلك.",
+        "ja": "データセットの特定の利用可能な形式を表わします。各データセットは、異なる形式で利用できることがあり、これらの形式は、データセットの異なる形式や、異なるエンドポイントを表わす可能性があります。配信の例には、ダウンロード可能なCSVファイル、API、RSSフィードが含まれます。",
+        "da": "En specifik repræsentation af et datasæt. Et datasæt kan være tilgængelig i mange serialiseringer der kan variere på forskellige vis, herunder sprog, medietype eller format, systemorganisering, tidslig- og geografisk opløsning, detaljeringsniveau eller profiler (der kan specificere en eller flere af ovenstående)."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba",
+      "name": {
+        "cs": "Distribuce - Datová služba",
+        "es": "Distribución",
+        "en": "Distribution",
+        "fr": "Distribution",
+        "it": "Distribuzione",
+        "el": "Διανομή",
+        "ar": "التوزيع",
+        "ja": "配信",
+        "da": "Distribution"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba",
+      "iri": "DistribuceDatováSlužba",
+      "usageNote": {
+        "en": ""
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba",
+      "profiling": [
+        "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraní",
+        "https://ofn.gov.cz/dcat-ap-cz#DistribuceDatováSlužba"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "regex": "^https://.*$"
+    },
+    "oeme8qe07amckdo9d5": {
+      "id": "oeme8qe07amckdo9d5",
+      "type": [
+        "class-profile"
+      ],
+      "description": {
+        "en": "A specific representation of a dataset. A dataset might be available in multiple serializations that may differ in various ways, including natural language, media-type or format, schematic organization, temporal and spatial resolution, level of detail or profiles (which might specify any or all of the above).",
+        "cs": "Konkrétní reprezentace datové sady jako souboru ke stažení.",
+        "it": "Rappresenta una forma disponibile e specifica del dataset. Ciascun dataset può essere disponibile in forme differenti, che possono rappresentare formati diversi o diversi punti di accesso per un dataset. Esempi di distribuzioni sono un file CSV scaricabile, una API o un RSS feed.",
+        "fr": "Représente une forme spécifique d'un jeu de données. Caque jeu de données peut être disponible sous différentes formes, celles-ci pouvant représenter différents formats du jeu de données ou différents endpoint. Des exemples de distribution sont des fichirs CSV, des API ou des flux RSS.",
+        "es": "Una representación específica de los datos. Cada conjunto de datos puede estar disponible en formas diferentes, las cuáles pueden variar en distintas formas, incluyendo el idioma, 'media-type' o formato, organización esquemática, resolución temporal y espacial, nivel de detalle o perfiles (que pueden especificar cualquiera o todas las diferencias anteriores).",
+        "el": "Αναπαριστά μία συγκεκριμένη διαθέσιμη μορφή ενός συνόλου δεδομένων. Κάθε σύνολο δεδομενων μπορεί να είναι διαθέσιμο σε διαφορετικές μορφές, οι μορφές αυτές μπορεί να αναπαριστούν διαφορετικές μορφές αρχείων ή διαφορετικά σημεία διάθεσης. Παραδείγματα διανομών συμπεριλαμβάνουν ένα μεταφορτώσιμο αρχείο μορφής CSV, ένα API ή ένα RSS feed.",
+        "ar": "شكل محدد لقائمة البيانات يمكن الوصول إليه. قائمة بيانات ما يمكن أن تكون متاحه باشكال و أنواع متعددة.  ملف يمكن تحميله أو واجهة برمجية يمكن من خلالها الوصول إلى البيانات هي أمثلة على ذلك.",
+        "ja": "データセットの特定の利用可能な形式を表わします。各データセットは、異なる形式で利用できることがあり、これらの形式は、データセットの異なる形式や、異なるエンドポイントを表わす可能性があります。配信の例には、ダウンロード可能なCSVファイル、API、RSSフィードが含まれます。",
+        "da": "En specifik repræsentation af et datasæt. Et datasæt kan være tilgængelig i mange serialiseringer der kan variere på forskellige vis, herunder sprog, medietype eller format, systemorganisering, tidslig- og geografisk opløsning, detaljeringsniveau eller profiler (der kan specificere en eller flere af ovenstående)."
+      },
+      "descriptionFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+      "name": {
+        "cs": "Distribuce - Soubor ke stažení",
+        "es": "Distribución",
+        "en": "Distribution",
+        "fr": "Distribution",
+        "it": "Distribuzione",
+        "el": "Διανομή",
+        "ar": "التوزيع",
+        "ja": "配信",
+        "da": "Distribution"
+      },
+      "nameFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+      "iri": "DistribuceSoubor",
+      "usageNote": {
+        "en": ""
+      },
+      "usageNoteFromProfiled": "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor",
+      "profiling": [
+        "https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraní",
+        "https://ofn.gov.cz/dcat-ap-cz#DistribuceSoubor"
+      ],
+      "externalDocumentationUrl": null,
+      "tags": [
+        "https://w3id.org/dsv/class-role#main"
+      ],
+      "regex": "^https://.*$"
+    },
+    "s9bv0ld4xotmckdossl": {
+      "id": "s9bv0ld4xotmckdossl",
+      "iri": null,
+      "child": "4fgtsj3dgsjmckdnwbc",
+      "parent": "djstwrb2xmdm7xdpjib",
+      "type": [
+        "generalization"
+      ]
+    },
+    "xcvbf4lzrdmmckdoumt": {
+      "id": "xcvbf4lzrdmmckdoumt",
+      "iri": null,
+      "child": "oeme8qe07amckdo9d5",
+      "parent": "djstwrb2xmdm7xdpjib",
+      "type": [
+        "generalization"
+      ]
+    }
+  }
+}

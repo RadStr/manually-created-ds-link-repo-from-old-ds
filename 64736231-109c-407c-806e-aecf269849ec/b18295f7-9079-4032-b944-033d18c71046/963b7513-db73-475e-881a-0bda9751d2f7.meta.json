@@ -1,0 +1,20 @@
+{
+  "iri": "db2ad74f-ec45-4d46-84f8-24d36fbb4200/64736231-109c-407c-806e-aecf269849ec/b18295f7-9079-4032-b944-033d18c71046/963b7513-db73-475e-881a-0bda9751d2f7",
+  "types": [
+    "https://dataspecer.com/core/model-descriptor/pim-store-wrapper"
+  ],
+  "userMetadata": {
+    "documentBaseUrl": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.ttl",
+    "label": {
+      "en": "dublin_core_terms"
+    }
+  },
+  "metadata": {
+    "creationDate": "2025-11-03T09:09:38.673Z",
+    "modificationDate": "2025-11-03T09:09:38.724Z"
+  },
+  "_version": 1,
+  "_exportVersion": 1,
+  "_exportedAt": "2025-12-25T09:36:10.484Z",
+  "_exportedBy": "http://localhost:3100"
+}

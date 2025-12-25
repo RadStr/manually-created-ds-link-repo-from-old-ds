@@ -1,0 +1,23 @@
+{
+  "json": {
+    "jsonIdKeyAlias": "iri",
+    "jsonTypeKeyAlias": "typ"
+  },
+  "data-specification": {
+    "publicBaseUrl": "https://ofn.gov.cz/dcat-ap-cz-360-2023/2025-08-12",
+    "useGenerators": {
+      "csv": false,
+      "sparql": false,
+      "shacl": false,
+      "shex": false,
+      "openapi": false,
+      "xml": false,
+      "jsonExample": false,
+      "plantUML": false
+    },
+    "renameArtifacts": {
+      "http://dataspecer.com/generator/json-ld": "kontext.jsonld",
+      "http://example.com/generator/json-schema": "schéma.json"
+    }
+  }
+}

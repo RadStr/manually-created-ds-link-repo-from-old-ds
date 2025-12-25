@@ -1,0 +1,20 @@
+{
+  "type": "https://dataspecer.com/core/model-descriptor/sgov",
+  "id": "rlmju",
+  "queries": [
+    "class:https://slovník.gov.cz/veřejný-sektor/pojem/datová-sada",
+    "class:https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/informační-systém-veřejné-správy",
+    "class:https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/informační-systém-veřejné-správy",
+    "class:https://slovník.gov.cz/legislativní/sbírka/365/2000/pojem/určený-informační-systém-veřejné-správy",
+    "class:https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/informační-systém-veřejné-správy-jako-součást-referenčního-rozhraní",
+    "surroundings:https://slovník.gov.cz/veřejný-sektor/pojem/datová-sada",
+    "class:https://slovník.gov.cz/generický/datový-slovník-ofn-slovníků/pojem/pojem",
+    "class:https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údaje",
+    "class:https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-sdílení-údaje",
+    "class:https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/způsob-získání-údaje",
+    "class:https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/typ-obsahu-údaje",
+    "class:https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraní",
+    "surroundings:https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/sdílení-údaje",
+    "surroundings:https://slovník.gov.cz/legislativní/sbírka/360/2023/pojem/datové-rozhraní"
+  ]
+}
